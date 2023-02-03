@@ -1,3 +1,3 @@
 # SCHOOL TIME TABLE
 
-![link](./time%20table.jpg)
+![image](./time%20table.jpg)
