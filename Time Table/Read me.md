@@ -1,3 +1,2 @@
 # SCHOOL TIME TABLE
-
-![image](./time%20table.jpg)
+[output image](./time%20table.jpg)
