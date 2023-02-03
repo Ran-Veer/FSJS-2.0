@@ -14,7 +14,7 @@
     <form action=""></form>
     <div>
         <label for="First-Name">First-Name:</label>
-        <input type="text" name="First-Name" placeholder="First-Name" id="First-Name">
+        <input type="text" name="First-Name" required placeholder="First-Name" id="First-Name">
         <label for="Last-Name">Last-Name:</label>
         <input type="text" name="Last-Name" placeholder="Last-Name" id="Last-Name">
     </div>
@@ -24,7 +24,7 @@
     </div>
     <div>
         <label for="password">Password:</label>
-        <input type="password" name="password" placeholder="password" id="password">
+        <input type="password" name="password"  placeholder="password" id="password">
         <label for="confirm-password">Confirm-Password:</label>
         <input type="password" name="confirm-password" placeholder="confirm-password" id="confirm-password">
     </div>
@@ -36,11 +36,11 @@
     </div>
     <div>
        <label for="">Gender:</label>
-        <input type="radio" name="gender" value="Male" id="Male">
+        <input  type="radio" name="gender" value="Male" id="Male">
         <label for="Male">Male</label>
-        <input type="radio" name="gender" value="Female" id="Female">
+        <input  type="radio" name="gender" value="Female" id="Female">
         <label for="Female">Female</label>
-        <input type="radio" name="gender" value="Transgender" id="Transgender">
+        <input  type="radio" name="gender" value="Transgender" id="Transgender">
         <label for="Transgender">Transgender</label>
     </div>
     <div>
@@ -66,6 +66,13 @@
         </select>
         <label for="country">Country:</label>
         <input type="text" name="country" value="INDIA" id="country" >
+    </div>
+    <div>
+        <label for="qualification">Qualification:</label>
+        <input type="checkbox" checked name="high school" id="qualification">High School
+        <input type="checkbox" name="Higher Secondary" id="qualification">Higher Secondary
+        <input type="checkbox" name="Graduation" id="qualification">Graduation
+        <input type="checkbox" name="Post Graduation" id="qualification">Post Graduation
     </div>
 </fieldset>
 </body>
