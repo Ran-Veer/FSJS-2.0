@@ -1,2 +1,3 @@
 # Registration Form
-![output image](./form.jpggit status)
+
+[image](./form.jpg)
