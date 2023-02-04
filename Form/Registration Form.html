@@ -6,6 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration form</title>
+    <style>
+        #sub:hover{
+           color: rgb(255, 234, 0);background-color: black; border-radius: 10px;
+        }
+        #sub{
+          margin: 5px; background-color:rgb(255, 234, 0) ;
+        }
+        form{
+            margin: 50px; font-family:monospace; font-size: 20px; 
+        }
+        input{
+           border-radius: 10px; border-color: darkgoldenrod; text-align: center; font-family: monospace; font-size: 15px;
+        }
+        label:hover{
+            color: crimson; 
+        }
+       select:hover{
+        color: crimson;
+       }
+       select{
+        font-family: monospace; font-size: 15px; border-radius: 10px; border-color: darkgoldenrod; 
+       }
+        
+    </style>
    
 </head>
 
@@ -70,14 +94,14 @@
         <input type="text" name="country" value="INDIA" id="country" >
     </div>
     <div>
-        <label for="qualification">Qualification:</label>
-        <input type="checkbox" checked name="high school" id="qualification">High School
-        <input type="checkbox" name="Higher Secondary" id="qualification">Higher Secondary
-        <input type="checkbox" name="Graduation" id="qualification">Graduation
-        <input type="checkbox" name="Post Graduation" id="qualification">Post Graduation
+        <label for="quali">Qualification:</label>
+        <input type="checkbox" checked name="high school" id="quali">High School
+        <input type="checkbox" name="Higher Secondary">Higher Secondary
+        <input type="checkbox" name="Graduation">Graduation
+        <input type="checkbox" name="Post Graduation">Post Graduation
     </div>
-    <input type="submit" value="Register">
-    <input type="reset" value="Reset">    
+    <input style="border-radius: 10px;" type="submit" value="Register" id="sub" >
+    <input  style="border-radius: 10px;" type="reset" value="Reset" id="res" >    
 </fieldset>
 </form>
 </body>
