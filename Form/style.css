@@ -1,0 +1,44 @@
+
+ #sub:hover{
+    cursor: pointer; transition: 0.8s; color: rgb(255, 234, 0);background-color: black; border-radius: 10px;
+   }
+   #res:hover{
+      cursor:pointer; transition: 0.8s; color: rgb(255, 234, 0);background-color: black; border-radius: 10px;
+   }
+   #sub{
+      margin: 5px; background-color:rgb(255, 234, 0) ;
+   }
+   #res{
+     margin: 5px; background-color:rgb(255, 234, 0) ;
+   }
+   form{
+       margin: 50px; font-family:monospace; font-size: 20px; 
+   }
+   input{
+      border-radius: 10px; border-color: darkgoldenrod; text-align: center; font-family: monospace; font-size: 15px; 
+   }
+   label:hover{
+     transition: 0.3s; color: crimson; 
+   }
+  select:hover{
+   color: crimson;
+  }
+  select{
+   cursor: pointer; font-family: monospace; font-size: 15px; border-radius: 10px; border-color: darkgoldenrod; 
+  }
+  legend{
+   color: crimson;
+  }
+  fieldset{
+   border-color: rgb(220, 210, 20);
+  }
+  .c1,.c2,.c3,.c4{
+   cursor: pointer;
+  }
+  span:hover{
+   color: crimson; transition: 0.3s;
+  }
+  .r1,.r2,.r3{
+   cursor: pointer;
+  }
+   
