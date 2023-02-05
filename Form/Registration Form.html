@@ -8,13 +8,13 @@
     <title>Registration form</title>
     <style>
         #sub:hover{
-           color: rgb(255, 234, 0);background-color: black; border-radius: 10px;
+         cursor: pointer; transition: 0.8s; color: rgb(255, 234, 0);background-color: black; border-radius: 10px;
         }
         #res:hover{
-           color: rgb(255, 234, 0);background-color: black; border-radius: 10px;
+           cursor:pointer; transition: 0.8s; color: rgb(255, 234, 0);background-color: black; border-radius: 10px;
         }
         #sub{
-          margin: 5px; background-color:rgb(255, 234, 0) ;
+           margin: 5px; background-color:rgb(255, 234, 0) ;
         }
         #res{
           margin: 5px; background-color:rgb(255, 234, 0) ;
@@ -26,19 +26,28 @@
            border-radius: 10px; border-color: darkgoldenrod; text-align: center; font-family: monospace; font-size: 15px; 
         }
         label:hover{
-            color: crimson; 
+          transition: 0.3s; color: crimson; 
         }
        select:hover{
         color: crimson;
        }
        select{
-        font-family: monospace; font-size: 15px; border-radius: 10px; border-color: darkgoldenrod; 
+        cursor: pointer; font-family: monospace; font-size: 15px; border-radius: 10px; border-color: darkgoldenrod; 
        }
        legend{
         color: crimson;
        }
        fieldset{
         border-color: rgb(220, 210, 20);
+       }
+       .c1,.c2,.c3,.c4{
+        cursor: pointer;
+       }
+       span:hover{
+        color: crimson; transition: 0.3s;
+       }
+       .r1,.r2,.r3{
+        cursor: pointer;
        }
         
     </style>
@@ -73,12 +82,12 @@
         <input type="number" name="mobile" placeholder="Mobile No" id="mobile">
     </div>
     <div>
-       <label for="">Gender:</label>
-        <input  type="radio" name="gender" value="Male" id="Male">
+       <span>Gender:</span>
+        <input class="r1" type="radio" name="gender" value="Male" id="Male">
         <label for="Male">Male</label>
-        <input  type="radio" name="gender" value="Female" id="Female">
+        <input class="r2" type="radio" name="gender" value="Female" id="Female">
         <label for="Female">Female</label>
-        <input  type="radio" name="gender" value="Transgender" id="Transgender">
+        <input class="r3" type="radio" name="gender" value="Transgender" id="Transgender">
         <label for="Transgender">Transgender</label>
     </div>
     <div>
@@ -107,10 +116,10 @@
     </div>
     <div>
         <label for="quali">Qualification:</label>
-        <input type="checkbox" checked name="high school" id="quali">High School
-        <input type="checkbox" name="Higher Secondary">Higher Secondary
-        <input type="checkbox" name="Graduation">Graduation
-        <input type="checkbox" name="Post Graduation">Post Graduation
+        <input class="c1" type="checkbox" checked name="high school" id="quali">High School
+        <input  class="c2" type="checkbox" name="Higher Secondary">Higher Secondary
+        <input  class="c3" type="checkbox" name="Graduation">Graduation
+        <input  class="c4" type="checkbox" name="Post Graduation">Post Graduation
     </div>
     <input style="border-radius: 10px;" type="submit" value="Register" id="sub" >
     <input  style="border-radius: 10px;" type="reset" value="Reset" id="res" >    
