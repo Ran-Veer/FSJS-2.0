@@ -1,2 +1,75 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-container{
+    height: 100px; width: auto;
+    border: 3px sold red;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    position:absolute;
+    top: 25px; left: 200px;
+    color: grey;
+    font-family:sans-serif;
+    font-weight: 400;
+}
+li:nth-child(1){
+    color: black;
+
+}
+.button-group{
+    position: absolute;
+    top: 10px; right: 100px;
+    border: 2px solid red;
+   
+   
+}
+.nav-button{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: rgb(79, 79, 219);
+    color:white;
+}
+img[ src="./assets/Logo.png"]{
+    position: relative;
+    left: 10px; top: 10px;
+    width: 140px;
+}
+.heading-text{
+    margin-left: 10px;
+    margin-top: 40px;
+    height: 150px;
+    width: 45%;
+    font-family:sans-serif;
+    border: 3px solid red;
+    font-size: 50px;
+    word-spacing: 10px;
+    
+
+}
+img[ src="./assets/Header Illustration.png"]{
+    position: absolute;
+    top: 85px;
+    width: 55%;
+    right: 20px;
+    height: 420px;
+}
+.banner-container{
+    display: flex;
+}
+.description{
+    width: 350px;
+    line-height: 25px;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-family:sans-serif;
+    color: grey;
+}
+span{
+    color: rgb(110, 110, 217);
+}
