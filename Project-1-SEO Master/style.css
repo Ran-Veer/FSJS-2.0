@@ -25,8 +25,6 @@ li:nth-child(1){
 .button-group{
     position: absolute;
     top: 10px; right: 100px;
-    border: 2px solid red;
-   
    
 }
 .nav-button{
@@ -46,7 +44,6 @@ img[ src="./assets/Logo.png"]{
     height: 150px;
     width: 45%;
     font-family:sans-serif;
-    border: 3px solid red;
     font-size: 50px;
     word-spacing: 10px;
     
@@ -63,13 +60,18 @@ img[ src="./assets/Header Illustration.png"]{
     display: flex;
 }
 .description{
-    width: 350px;
+    width: 300px;
     line-height: 25px;
-    margin-left: 10px;
-    margin-top: 50px;
+    margin-left: 15px;
+    margin-top: 40px;
     font-family:sans-serif;
     color: grey;
+    font-size: 15px;
 }
 span{
     color: rgb(110, 110, 217);
+}
+.btn{
+    margin-left: 30px;
+    margin-top: 30px;
 }
