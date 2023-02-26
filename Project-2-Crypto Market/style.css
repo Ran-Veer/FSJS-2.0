@@ -85,3 +85,17 @@
 button::first-letter{
     text-transform: capitalize;
 }
+/* For Caret */
+.line{
+    width: 0px;
+    height: 0px;
+    /* border: 20px solid white; */
+    border-top: 7px solid white;
+    border-right:7px solid transparent;
+    border-bottom:7px solid transparent;
+    border-left:7px solid transparent;
+
+    position: relative;
+    top: 25px;
+    left: 4px;
+}
