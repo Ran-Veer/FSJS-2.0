@@ -11,7 +11,7 @@
     background-color: rgba(19, 6, 6, 0.975);
     color: white;
     justify-content:space-around;
-    width:1085px; height: 60px;
+    width:1100px; height: 60px;
     
 }
 .logo{
@@ -42,11 +42,12 @@
 }
 /* Hero Section */
 .hero{
-    width:auto;
+    border: 2px solid red;
+    width:1100px;
     height: 600px;
     text-align:center;
     background-image: url(./assets/bg.png);
-    background-size:1085px 600px;
+    background-size:1100px 600px;
     background-repeat: no-repeat;
     /* overflow: hidden; */
 }
