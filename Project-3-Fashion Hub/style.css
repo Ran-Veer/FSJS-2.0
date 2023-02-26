@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 img[ src="./assets/Logo.png"]{
     width: 85px;
     position: relative;
@@ -13,7 +16,7 @@ img[ src="./assets/Logo.png"]{
     display: flex;
     justify-content:space-around;
     height: 100px; width: auto;
-    border: 2px solid red;
+    
 }
 .list{
     display: flex;
@@ -62,10 +65,9 @@ svg{
 }
 .globe>img{
     position:relative;
-    bottom: 200px;
-    left: 129px;
+    bottom: 190px;
+    left: 250px;
     width: 42px;
-    border: 1px solid red;
     display: inline;
 }
 .hero-container>div>img{
@@ -78,7 +80,87 @@ svg{
     position:relative;
     top: 180px;
     left: 150px;
-    width: 235px;
-   
-   
+    width: 235px;  
+}
+.hero-container-right{
+    width:700px;
+    height: 420px;
+    position: absolute;
+    top: 130px;
+    right:0px;
+}
+.hero-heading{
+    font-family:Orbitron;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    right: 32px;
+}
+.hero-description{
+    font-family: poppins;
+    color: rgb(110, 109, 109) ;
+    font-size: 11px;
+    font-weight: 450;
+    width: 500px;
+    position: relative;
+    top: 90px;
+    left: 60px;
+    text-align: justify;
+    text-align-last:center;
+}
+.button-email{
+    position: relative;
+    top: 140px;
+    left: 180px;
+    width: 140px;
+    border-radius: 7px;
+    font-family: Orbitron;
+    background-color: #ffffff;
+    color: rgb(110, 109, 109);
+ 
+}
+.button-join{
+    position: relative;
+    top: 140px;
+    left: 185px;
+    width: 90px;
+    border-radius: 7px;
+    font-family: Orbitron;
+    background-color: #110202;
+    color: #ffffff;
+}
+.contact-heading{
+    position: relative;
+    top: 195px;
+    left: 260px;
+    width: 100px;
+    font-family:poppins;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 550;
+    color: rgb(129, 128, 128);
+}
+.icons{
+    position:relative;
+    top: 205px;
+    left: 230px;
+}
+.icons>span>img{
+    width: 23px;
+
+    margin-right: 12px;
+}
+.hero-container>span:nth-child(2) img {
+    position:relative;
+   left: 180px;
+   top: 150px;
+   width: 35px;
+    
+}
+.hero-container>span:nth-child(3) img {
+    position: absolute;
+    top: 120px;
+    right: 110px;
+    width: 50px;
 }
