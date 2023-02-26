@@ -1,2 +1,27 @@
-/* You can not modify anything in the HTML */
-/* You can only modify the CSS file */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.list{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(27, 6, 6);
+    color: white;
+    justify-content:space-around;
+    width: auto; height: 60px;
+}
+img[src="./assets/white-logo.png"]{
+    position: relative;
+    top: 15px;
+    width:80px; height: 30px;
+}
+.list{
+    list-style: none;
+    margin-top: 20px;
+    gap: 45px;
+    font-family: sans-serif;
+    position:relative;
+    right: 140px;
+}
