@@ -48,7 +48,7 @@
     background-image: url(./assets/bg.png);
     background-size:1085px 600px;
     background-repeat: no-repeat;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .hero-heading{
    font-size: 60px;
