@@ -5,6 +5,7 @@
 .list{
     display: flex;
 }
+/* Navigation Bar */
 .navbar{
     display: flex;
     background-color: rgba(19, 6, 6, 0.975);
@@ -39,6 +40,7 @@
     border-style: none;
    
 }
+/* Hero Section */
 .hero{
     width:auto;
     height: 600px;
@@ -50,28 +52,36 @@
 }
 .hero-heading{
    font-size: 60px;
-   font-family:sans-serif;
+   font-family:poppins;
    color: #ffffff;
    width: 800px;
+   position: relative;
+   bottom: 15px;
    height: 200px;
+   line-height: 75px;
    padding: 100px 150px 0px;
 }
 .hero-description{
     color: #ffffff;
-    font-family:sans-serif;
+    font-family:poppins;
     position: relative;
     bottom: 60px;
     font-size: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 .button-large{
-    width: 300px; height: 50px;
+    width: 240px; height: 45px;
     background-color: rgb(178, 27, 198);
     color: #ffffff;
     border-style: none;
-    border-radius: 5px;
-    font-family:;
+    border-radius: 7px;
+    position: relative;
+    bottom: 30px;
+    font-family:poppins;
     text-transform:lowercase;
-    font-size: 20px;
-    border: 2px solid white;
+    font-size: 20px; 
+    font-weight: 500;
+}
+button::first-letter{
+    text-transform: capitalize;
 }
