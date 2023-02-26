@@ -7,15 +7,18 @@
 }
 .navbar{
     display: flex;
-    background-color: rgb(27, 6, 6);
+    background-color: rgba(19, 6, 6, 0.975);
     color: white;
     justify-content:space-around;
-    width: auto; height: 60px;
+    width:1085px; height: 60px;
+    
 }
-img[src="./assets/white-logo.png"]{
-    position: relative;
-    top: 15px;
-    width:80px; height: 30px;
+.logo{
+  border-right: 1px solid #ffffff;
+  width: 80px;
+  padding: 7px 40px;
+  margin-top: 9px;
+  
 }
 .list{
     list-style: none;
@@ -24,4 +27,51 @@ img[src="./assets/white-logo.png"]{
     font-family: sans-serif;
     position:relative;
     right: 140px;
+    font-size: 13px;
+}
+.button-small{
+    position: relative;
+    top: 15px;
+    width: 130px; height: 30px;
+    border-radius: 5px;
+    background-color: rgb(178, 27, 198);
+    color: #ffffff;
+    border-style: none;
+   
+}
+.hero{
+    width:auto;
+    height: 600px;
+    text-align:center;
+    background-image: url(./assets/bg.png);
+    background-size:1085px 600px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.hero-heading{
+   font-size: 60px;
+   font-family:sans-serif;
+   color: #ffffff;
+   width: 800px;
+   height: 200px;
+   padding: 100px 150px 0px;
+}
+.hero-description{
+    color: #ffffff;
+    font-family:sans-serif;
+    position: relative;
+    bottom: 60px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.button-large{
+    width: 300px; height: 50px;
+    background-color: rgb(178, 27, 198);
+    color: #ffffff;
+    border-style: none;
+    border-radius: 5px;
+    font-family:;
+    text-transform:lowercase;
+    font-size: 20px;
+    border: 2px solid white;
 }
