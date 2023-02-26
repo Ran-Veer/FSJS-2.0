@@ -1,4 +1,4 @@
 # **Full Stack JavaScript 2.0**
 ## Project 1 **Fashion Hub**
 ![Output Image](./project%20output.jpg)
-## Live Site Link
+## Live Site Link [Fashion Hub](https://fashion-hub-project.netlify.app/)
