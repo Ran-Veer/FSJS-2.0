@@ -1,2 +1,84 @@
-/* You can not modify anything from the HTML file */
-/* You can only modify the CSS file */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img[ src="./assets/Logo.png"]{
+    width: 85px;
+    position: relative;
+    top: 30px;
+    right: 28px;
+}
+.navbar-container{
+    display: flex;
+    justify-content:space-around;
+    height: 100px; width: auto;
+    border: 2px solid red;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    font-family: Orbitron;
+    font-weight: 650;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    font-size: 14px;
+}
+li:nth-child(1){
+   border-bottom: 2px solid black;
+   font-size: 18px;
+   font-weight:700;
+   position: relative;
+   bottom: 5px;
+}
+li:nth-child(2){
+    position: relative;
+    left: 85px;
+}
+li:nth-child(3){
+    position: relative;
+    right: 73px;
+}
+.search-icon{
+    position: relative;
+    top: 32px;
+    right: 65px;    
+}
+svg{
+    width: 18px;
+}
+.nav-button{
+    width: 110px;
+    height: 28px;
+    border-radius: 10px;
+    font-family: poppins;
+    position: relative;
+    right: 40px;
+    bottom: 5px;
+    background-color: #ffffff;
+    color: rgb(110, 109, 109);
+}
+.globe>img{
+    position:relative;
+    bottom: 200px;
+    left: 129px;
+    width: 42px;
+    border: 1px solid red;
+    display: inline;
+}
+.hero-container>div>img{
+    position: absolute  ;
+    top: 130px;
+    left: 60px;
+    width: 280px;
+}
+.hero-container>.square>img{
+    position:relative;
+    top: 180px;
+    left: 150px;
+    width: 235px;
+   
+   
+}
