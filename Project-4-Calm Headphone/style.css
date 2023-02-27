@@ -25,3 +25,16 @@ body{
     font-family:sans-serif;
     color: rgb(66, 64, 64);
 }
+.hero-container{
+    display: flex;
+}
+.banner>span img{
+    width: 150px;
+}
+.banner>img{
+    width: 310px;
+}
+.banner{
+    width: 330px;
+    border: 1px solid red;
+}
