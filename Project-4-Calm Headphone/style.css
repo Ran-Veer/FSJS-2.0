@@ -9,17 +9,17 @@ body{
     display: flex;
 }
 .navbar-container>div> img {
-    width: 90px;
+    width: 75px;
     position: relative;
-    left: 130px;
-    top: 16px;
+    left: 110px;
+    top: 17px;
 }
 .list{
     position: relative;
-    left: 195px;
-    gap: 50px;
-    top: 25px;
-    font-size: 14px;
+    left: 175px;
+    gap: 45px;
+    top: 26px;
+    font-size: 13px;
     list-style: none;
     display: flex;
     font-family:sans-serif;
@@ -29,12 +29,15 @@ body{
     display: flex;
 }
 .banner>span img{
-    width: 150px;
+    width: 140px;
 }
 .banner>img{
-    width: 310px;
+    width: 290px;
 }
 .banner{
-    width: 330px;
+    position:absolute;
+    top: 100px;
+    right: 180px;
+    width: 310px;
     border: 1px solid red;
 }
