@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(250, 239, 224) ;
+}
+.navbar-container{
+    display: flex;
+}
+.navbar-container>div> img {
+    width: 90px;
+    position: relative;
+    left: 130px;
+    top: 16px;
+}
+.list{
+    position: relative;
+    left: 195px;
+    gap: 50px;
+    top: 25px;
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    font-family:sans-serif;
+    color: rgb(66, 64, 64);
+}
