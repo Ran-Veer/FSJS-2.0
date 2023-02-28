@@ -39,5 +39,28 @@ body{
     top: 100px;
     right: 180px;
     width: 310px;
-    border: 1px solid red;
+}
+.hero-container>.text {
+    position: absolute;
+    line-height: 50px;
+    bottom: 110px;
+    left: 110px;
+}
+.hero-heading{
+    font-size: 40px;
+    font-family:sans-serif;
+    width: 400px;
+}
+.hero-description{
+    font-size: 12px;
+    font-family:sans-serif;
+    color: rgb(66, 64, 64);
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(5, 116, 5);
+    color: #ffffff;
 }
