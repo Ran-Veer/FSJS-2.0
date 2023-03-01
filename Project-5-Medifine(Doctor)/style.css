@@ -39,3 +39,27 @@ li:nth-child(1){
     width: 100vw;
     height:85vh;
 }
+.st-image{
+    width:450px;
+    position: absolute;
+    left:230px;
+    top: 50px;
+}
+.green-c{
+    width:310px;
+    position: absolute;
+    right:20px;
+    top:145px;
+}
+.orange-c{
+    width:260px;
+    position: absolute;
+    right:5px;
+    top:180px;
+}
+.doc{
+    width:300px;
+    position: absolute;
+    right:20px;
+    top:70px;
+}
