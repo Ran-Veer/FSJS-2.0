@@ -11,3 +11,8 @@ body{
     height: 80px;
     border: 1px solid red;
 }
+.list{
+    list-style: none;
+    font-family:sans-serif;
+    display: flex;
+}
