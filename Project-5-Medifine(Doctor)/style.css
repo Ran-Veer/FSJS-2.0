@@ -34,3 +34,8 @@ body {
 li:nth-child(1){
     color: rgb(58, 191, 58);
 }
+.hero-container{
+    display: flex;
+    width: 100vw;
+    height:85vh;
+}
