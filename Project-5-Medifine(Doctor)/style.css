@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -11,7 +12,6 @@ body {
 }
 
 .navbar-container {
-    background-color: aqua;
     display: flex;
     width: 100vw;
     height: 15vh;
@@ -21,7 +21,7 @@ body {
 .navbar-container>div>img {
     width: 140px;
     margin-top: 20px;
-    margin-left: 60PX;
+    margin-left: 85PX;
 }
 
 .list {
@@ -43,10 +43,10 @@ li:nth-child(1){
     height:85vh;
 }
 .st-image{
-    width:450px;
+    width:430px;
     position: absolute;
-    left:230px;
-    top: 50px;
+    left:250px;
+    top: 55px;
 }
 .green-c{
     width:310px;
@@ -67,23 +67,25 @@ li:nth-child(1){
     top:70px;
 }
 .image-top{
-    margin-left:63px;
-    margin-top:30px;
+    margin-left:85px;
+    margin-top:25px;
     width:20px;
 }
 .hero-heading{
-    font-family: 'Golos Text', sans-serif;
+    /* font-family: 'Golos Text', sans-serif; */
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 55px;
-    width:550px;
-    margin-left:65px;
+    width:500px;
+    margin-left:85px;
+    margin-bottom: 10px;
 }
 .hero-description{
-    font-family: 'Montserrat', sans-serif;
-    width: 500px;
-    font-weight: 600;
-    margin-left: 65px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 450px;
+    font-weight: 400;
+    margin-left: 85px;
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 14px;
     color: rgb(155, 149, 149);
 }
 button{
@@ -96,10 +98,16 @@ button{
     font-family: 'PT Sans', sans-serif;
     font-weight: 500;
     margin-top: 17px;
-    margin-left: 65px;
+    margin-left: 85px;
 }
 .image-bottom{
     width:20px;
-    margin-left: 215px;
-    margin-bottom: 15px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.mouse{
+    width: 25px;
+    position: relative;
+    top: 15px;
+    left:10px;
 }
