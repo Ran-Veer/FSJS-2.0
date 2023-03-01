@@ -15,4 +15,10 @@ body{
     list-style: none;
     font-family:sans-serif;
     display: flex;
+    gap: 45px;
+    font-weight: 550;
+    font-size: 14px;
+    position: absolute;
+    right: 120px;
+    top: 50px;
 }
