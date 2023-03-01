@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -62,4 +65,41 @@ li:nth-child(1){
     position: absolute;
     right:20px;
     top:70px;
+}
+.image-top{
+    margin-left:63px;
+    margin-top:30px;
+    width:20px;
+}
+.hero-heading{
+    font-family: 'Golos Text', sans-serif;
+    font-size: 55px;
+    width:550px;
+    margin-left:65px;
+}
+.hero-description{
+    font-family: 'Montserrat', sans-serif;
+    width: 500px;
+    font-weight: 600;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgb(155, 149, 149);
+}
+button{
+    padding: 11px 35px;
+    font-size: 20px;
+    border-radius: 25px;
+    color: #ffffff;
+    background-color: rgb(32, 171, 113);
+    border-style: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 17px;
+    margin-left: 65px;
+}
+.image-bottom{
+    width:20px;
+    margin-left: 215px;
+    margin-bottom: 15px;
 }
