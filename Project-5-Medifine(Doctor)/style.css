@@ -10,6 +10,9 @@
 body {
     background-color: #f1f3f5;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 
 .navbar-container {
     display: flex;
