@@ -3,7 +3,6 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    color: #ffffff;
     list-style: none;
 }
 body{
@@ -16,19 +15,40 @@ body{
     align-items: center;
     width: 100vw;
     height: 15vh;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .list{
-    display: flex;
+    display: flex;  
     gap: 30px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 12px;
+    margin-left:150px;
+    color: rgb(194, 194, 194);
+}
+button{
+    padding: 7px 12px;
+    background-color: rgb(41, 40, 40);
+    border-color:rgb(160, 138, 14);
+    border-radius:7px;
+    color: rgb(181, 158, 31);
+    border-width: 1px;
+    font-family:sans-serif;
+    font-weight:bold;
+    margin-right: 200px;
+    font-size: 10px
+}
+.navbar-container>div>img{
+    width: 100px;
+    margin-left: 185px;
 }
 .hero-container{
+    color: #ffffff;
     display: flex;
     gap: 40px;
     align-items: center;
     width: 100vw;
-    height: 35vh;
-    background-color: goldenrod;
+    height: 30vh;
+    /* background-color: goldenrod; */
 }
 .hero-heading{
     font-family: 'IBM Plex Sans Arabic', sans-serif;
@@ -43,7 +63,7 @@ body{
     font-weight: 400;
     font-size: 15px;
     width: 310px;
-    
+    line-height:20px;
 }
 .banner>img{
     width: 700px;
