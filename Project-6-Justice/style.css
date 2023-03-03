@@ -28,6 +28,14 @@ body::-webkit-scrollbar{
     margin-left:170px;
     color: rgb(194, 194, 194);
 }
+a{
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+    transition: .2s;
+}
 button{
     padding: 7px 12px;
     background-color: rgb(41, 40, 40);
@@ -39,6 +47,11 @@ button{
     font-weight:bold;
     margin-right: 187px;
     font-size: 10px
+}
+button:hover{
+   border-color: aqua;
+   transition: .3s;
+    
 }
 .navbar-container>div>img{
     width: 100px;
