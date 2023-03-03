@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200;300;400;600;700&display=swap');
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    color: #ffffff;
+    list-style: none;
+}
+body{
+    background-color: rgb(41, 40, 40);
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 100vw;
+    height: 15vh;
+    background-color: yellow;
+}
+.list{
+    display: flex;
+    gap: 30px;
+}
+.hero-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 100vw;
+    height: 35vh;
+    background-color: goldenrod;
+}
+.hero-heading{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    width: 350px;
+    line-height: 55px;
+    margin-left: 185px;
+}
+.hero-description{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 310px;
+    
+}
+.banner>img{
+    width: 700px;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
