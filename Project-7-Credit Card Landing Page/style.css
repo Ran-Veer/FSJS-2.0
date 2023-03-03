@@ -9,36 +9,40 @@ body{
 }
 .navbar-container{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
-    /* border: 1px solid gold; */
+    border: 1px solid gold;
     width: 100vw;
     height: 12vh;
+    margin-top: 20px;
 }
 a{
     text-decoration: none;
     color: #ffffff;
 }
 .nav-logo>img{
-    margin-top: 10px;
     width: 120px;
     cursor: pointer;
+    margin-left: 70px;
 }
 .list{
     list-style: none;
-    display: flex
+    margin-left: 200px;
+    display: flex;
 }
-.list li{
-    display: inline-block;
-    padding: 0px 20px;
+.list-item{
     font-family: 'Golos Text', sans-serif;
     font-size: 13px;
+    /* border: 1px solid gold; */
+    padding: 0px 15px;
 }
 .caret{
     font-family: 'Golos Text', sans-serif;
     font-size: 13px;
+    margin-left: 160px;
 }
 .Contact{
+    margin-left:40px;
     font-family: 'Golos Text', sans-serif;
     font-size: 13px;
     background-image:url(./Assets/Icons/btn-pink-bg.svg);
