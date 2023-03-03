@@ -10,3 +10,5 @@ Project Details [Fashion Hub](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Pro
 Project Details [Calm Headphone](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-4-Calm%20Headphone)
 ## **`5`** Project:- Medifine Doctor
 Project Details [Medifine Doctor](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-5-Medifine(Doctor))
+## **`6`** Project:- Justice
+Project Details [Justice](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-6-Justice)
