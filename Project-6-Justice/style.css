@@ -8,6 +8,9 @@
 body{
     background-color: rgb(41, 40, 40);
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 .navbar-container{
     display: flex;
     flex-direction: row;
@@ -22,7 +25,7 @@ body{
     gap: 30px;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-size: 12px;
-    margin-left:150px;
+    margin-left:170px;
     color: rgb(194, 194, 194);
 }
 button{
@@ -34,12 +37,12 @@ button{
     border-width: 1px;
     font-family:sans-serif;
     font-weight:bold;
-    margin-right: 200px;
+    margin-right: 187px;
     font-size: 10px
 }
 .navbar-container>div>img{
     width: 100px;
-    margin-left: 185px;
+    margin-left: 195px;
 }
 .hero-container{
     color: #ffffff;
@@ -56,7 +59,7 @@ button{
     font-size: 22px;
     width: 350px;
     line-height: 55px;
-    margin-left: 185px;
+    margin-left: 200px;
 }
 .hero-description{
     font-family: 'IBM Plex Sans Arabic', sans-serif;
