@@ -14,14 +14,14 @@ body::-webkit-scrollbar{
     display: none;
 }
 header{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 18vh;
 }
 .navbar-container{
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     width: 100vw;
     height: 15vh;
 }
@@ -63,6 +63,8 @@ a{
 }
 .hero-section{
     display: flex;
+    width: 100%;
+    height:130vh;
 }
 .left-hero>.hero-heading{
     font-size: 70px;
@@ -124,6 +126,33 @@ a{
     padding: 8px 0px 0px 35px;
     font-size: 14px;
 }
+.second{
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-weight:700;
+    position: relative;
+    left: 70px;
+    bottom: 2px;
+}
+.pls{
+    font-size: 35px;
+    color: rgb(189, 19, 205);
+    font-weight:900;
+    width: 10px;
+    padding: 8px 0px 0px 5px;
+    position: relative;
+    left: 70px;
+    bottom: 1px;
+}
+.year{
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    padding: 8px 0px 0px 35px;
+    font-size: 14px;
+    position: relative;
+    left: 70px;
+}
 .rating>img{
     height:50px;
     left: 40px;
@@ -145,4 +174,48 @@ a{
     z-index: 1;
     left:-390px;
     bottom: 50px;
+}
+.multi-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 100px;
+    background-color: #302f2f;
+}
+.multi-logo img{
+    width: 120px;
+}
+.payment{
+    width: 100%;
+    height: 100vh;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 70px 0px 70px;
+}
+.pay-heading{
+    font-family: 'Manrope', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+}
+.pay-heading span{
+    color: rgb(189, 19, 205);
+    font-weight: 800;
+}
+.pay-description{
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    color: rgb(165, 165, 165);
+    width: 750px;
+    position: relative;
+    top: 50px;
+    right: 15px;
+}
+.v-line img{
+    margin-left: 200px;
+    height: 300px;
 }
