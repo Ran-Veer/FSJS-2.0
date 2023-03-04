@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -57,4 +60,89 @@ a{
     /* border: 1px solid gold; */
     background-position:center left;
     background-size:35px;
+}
+.hero-section{
+    display: flex;
+}
+.left-hero>.hero-heading{
+    font-size: 70px;
+    width:800px;
+    font-family: 'Manrope', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    font-weight: 500;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    color: #ffffff;
+}
+.left-hero>.hero-heading>span{
+    color: rgb(189, 19, 205);
+    font-weight: 700;
+}
+.left-hero>.hero-description{
+    font-size: 20px;
+    padding: 90px 0px 60px 50px;
+    font-family: 'Manrope', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    color: rgb(136, 136, 136);
+    width: 600px;
+}
+.left-hero>div>a{
+    margin-left:52px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    background-image:url(./Assets/Icons/btn-pink-bg.svg);
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 25px;
+    /* border: 1px solid gold; */
+    background-position:center left;
+    background-size:58px;
+}
+.rating{
+    display: flex;
+    position: relative;
+    left: 55px;
+    top: 60px;
+}
+.rating>h1:nth-child(1){
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-weight:700;
+}
+.plus{
+    font-size: 35px;
+    color: rgb(189, 19, 205);
+    font-weight:900;
+    width: 10px;
+    padding: 8px 0px 0px 5px;
+
+}
+.active{
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    padding: 8px 0px 0px 35px;
+    font-size: 14px;
+}
+.rating>img{
+    height:50px;
+    left: 40px;
+    /* border:1px solid #bc1b1b; */
+    position: relative;
+
+}
+.right-hero img{
+    width:700px;
+}
+.front-card{
+    position: absolute;
+    top:100px;
+    right: -170px;
+    z-index: 2;
+}
+.back-card{
+    position: relative;
+    z-index: 1;
+    left:-390px;
+    bottom: 50px;
 }
