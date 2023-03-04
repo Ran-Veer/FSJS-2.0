@@ -215,7 +215,66 @@ a{
     top: 50px;
     right: 15px;
 }
-.v-line img{
-    margin-left: 200px;
-    height: 300px;
+.card-image{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 330px;
+    margin-top: 100px;
+}
+.card-image img{
+    width: 100px;
+}
+.card-image p{
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+}
+.card1{
+    height: 200px;
+    width: 250px;
+    background-color: #353535;
+    padding: 20px 35px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+.card1 p{
+    font-size: 20px;
+    width: 220px;
+    padding: 20px 30px 0px 0px;
+    font-weight: 500;
+}
+.card2{
+    height: 220px;
+    width: 250px;
+    background-color: #3b3a3a;
+    padding: 20px 35px;
+    margin: 15px;
+    bottom: 40px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+.card2 p{
+    font-size: 18px;
+    width: 225px;
+    padding: 20px 30px 0px 0px;
+    font-weight: 500;
+}
+.card3{
+    height: 200px;
+    width: 250px;
+    background-color: #3b3a3a;
+    padding: 20px 35px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+.card3 p{
+    font-size: 20px;
+    width: 220px;
+    padding: 20px 30px 0px 0px;
+    font-weight: 500;
 }
