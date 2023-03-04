@@ -7,14 +7,20 @@
 body{
     background-color: rgb(11, 11, 11);
 }
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    border: 1px solid red;
+    height: 18vh;
+}
 .navbar-container{
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
     border: 1px solid gold;
     width: 100vw;
-    height: 12vh;
-    margin-top: 20px;
+    height: 15vh;
 }
 a{
     text-decoration: none;
