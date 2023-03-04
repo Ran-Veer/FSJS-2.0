@@ -245,6 +245,11 @@ a{
     padding: 20px 30px 0px 0px;
     font-weight: 500;
 }
+.card1:hover{
+    border-color: aqua;
+    transition: .4s;
+    cursor: pointer;
+}
 .card2{
     height: 220px;
     width: 250px;
@@ -262,6 +267,11 @@ a{
     padding: 20px 30px 0px 0px;
     font-weight: 500;
 }
+.card2:hover{
+    border-color: aqua;
+    transition: .4s;
+    cursor: pointer;
+}
 .card3{
     height: 200px;
     width: 250px;
@@ -277,4 +287,9 @@ a{
     width: 220px;
     padding: 20px 30px 0px 0px;
     font-weight: 500;
+}
+.card3:hover{
+    border-color: aqua;
+    transition: .4s;
+    cursor: pointer;
 }
