@@ -514,3 +514,59 @@ a{
     font-family: 'Manrope', sans-serif;
     font-size: 12px;
 }
+.r-button{
+    position: relative;
+    top: 150px;
+    left: 450px;
+}
+.btn1{
+    border-radius: 20px;
+    padding: 10px 50px;
+    background-color:rgb(230, 47, 246);
+    margin-right: 10px;
+}
+.btn2{
+    padding: 9px 9px;
+    border-radius: 50px;
+    background-color: #3b3a3a;
+    margin-right: 5px;
+}
+.btn3{
+    padding: 9px 9px;
+    border-radius: 50px;
+    background-color: #3b3a3a;
+    margin-right: 5px;
+}
+.btn4{
+    padding: 9px 9px;
+    border-radius: 50px;
+    background-color: #3b3a3a;
+}
+.pink-image{
+    position: relative;
+    top: 300px;
+}
+.pnk-2{
+    position: relative;
+    bottom: 410px;
+    height: 80vh;
+    width: 100%;
+}
+.pnk-1{
+    height: 80vh;
+    width: 100%;
+}
+.diamond-image{
+    display: flex;
+}
+.left-diamond{
+    width: 400px;
+    position: relative;
+    bottom: 530px;
+}
+.right-diamond{
+    position: relative;
+    bottom: 490px;
+    width: 400px;
+    left: 300px;
+}
