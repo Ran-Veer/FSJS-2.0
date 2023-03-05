@@ -379,6 +379,11 @@ a{
     /* text-align: center; */
     border: 1px solid #ffffff;
 }
+.rating1:hover,.rating2:hover,.rating3:hover,.rating4:hover{
+    border-color: rgb(10, 224, 224);
+    transition: .4s;
+    cursor: pointer;
+}
 .rating1>img{
     width:120px;
 }
@@ -545,6 +550,7 @@ a{
 .pink-image{
     position: relative;
     top: 300px;
+    height: 100vh;
 }
 .pnk-2{
     position: relative;
@@ -562,11 +568,59 @@ a{
 .left-diamond{
     width: 400px;
     position: relative;
-    bottom: 530px;
+    bottom: 215px;
 }
 .right-diamond{
     position: relative;
-    bottom: 490px;
+    bottom: 175px;
     width: 400px;
     left: 300px;
+}
+.customing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    bottom: 500px;
+}
+.customing span:nth-child(2){
+    position: relative;
+    left: 80px;
+    bottom: 18px;
+}
+.customing span img{
+    width: 40px;
+    position: relative;
+    bottom: 525px;
+    left: 70px;
+}
+.lets-start{
+    color: #f5f4f4;
+    font-family: 'Manrope', sans-serif;
+    font-size: 56px;
+    width: 800px;
+    word-spacing: 2px;
+    font-weight: 700;
+    padding: 0px 0px 20px 0px;
+    /* border: 1px solid gold;  */
+    position: relative;
+    bottom: 500px; 
+}
+.customing span:nth-child(1){
+    color:#302f2f;
+}
+.lets-btn{
+    /* margin-left:40px; */
+    font-family: 'Golos Text', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-image:url(./Assets/Icons/btn-pink-bg.svg);
+    background-repeat: no-repeat;
+    padding: 5px 25px;
+    /* border: 1px solid gold; */
+    background-position:center left;
+    background-size:55px;
+    position: relative;
+    bottom: 500px;
+    right: 20px;
 }
