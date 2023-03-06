@@ -121,3 +121,16 @@ header{
     width:25rem;
     padding-right: 15px;
 }
+.multiple-logo{
+    width: 100%;
+    height: 5.5rem;
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232323;
+}
+.multiple-logo img{
+    width:7rem;
+}
