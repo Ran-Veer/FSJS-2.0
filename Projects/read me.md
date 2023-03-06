@@ -12,3 +12,5 @@ Project Details [Calm Headphone](https://github.com/Ran-Veer/FSJS-2.0/tree/main/
 Project Details [Medifine Doctor](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-5-Medifine(Doctor))
 ## **`6`** Project:- Justice
 Project Details [Justice](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-6-Justice)
+## **`7`** Project:- Credit Card Landing Page
+Project Details [Credit Card Landing Page](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-7-Credit%20Card%20Landing%20Page)
