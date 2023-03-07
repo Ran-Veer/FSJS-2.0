@@ -142,7 +142,7 @@ header{
 }
 .service{
     text-align: center;
-    padding: 6rem 3rem;
+    padding: 6rem 3rem 4rem 3rem;
     font-family: 'Nunito Sans', sans-serif;
 }
 .service h1{
@@ -155,4 +155,43 @@ header{
     font-size: 1rem;
     word-spacing: 1px;
     line-height: 22px;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.card-container .card1,.card2,.card3{
+    border: 2px solid rgb(177, 175, 175);
+    text-align: center;
+    border-radius:1.3rem;
+    width:16rem;
+    height: 16rem;
+}
+.card-container .card2{
+    background-color: #232323;
+    border: none;
+    margin:0 2.5rem 5rem 2.5rem;
+    box-shadow:0px 6.1px 4.4px rgba(0, 0, 0, 0.144),0px 49px 48px rgba(0, 0, 0, 0.21);
+}
+.card-container .card2 h1{
+    color:rgb(243, 241, 241);
+    font-weight: 600;
+}
+.card-container .card1 img, .card2 img, .card3 img{
+    width: 4.5rem;
+    padding: 1.2rem 0 1rem 0;
+}
+.card-container .card1 h1, .card2 h1, .card3 h1{
+    font-size:1.3rem;
+    font-weight:800;
+    color: #333333;
+}
+.card-container .card1 p, .card2 p, .card3 p{
+    font-size:.9rem;
+    font-weight: 600;
+    color: #838282;
+    padding: .7rem 0 0 0;
 }
