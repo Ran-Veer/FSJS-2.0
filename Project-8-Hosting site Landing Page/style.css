@@ -134,3 +134,25 @@ header{
 .multiple-logo img{
     width:7rem;
 }
+.Features{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 5.5rem;
+    background-color: #ffffff;
+}
+.service{
+    text-align: center;
+    padding: 6rem 3rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.service h1{
+    font-size: 2.7rem;
+    font-weight:700;
+    padding-bottom: 1rem;
+}
+.service p{
+    color: #a2a2a2;
+    font-size: 1rem;
+    word-spacing: 1px;
+    line-height: 22px;
+}
