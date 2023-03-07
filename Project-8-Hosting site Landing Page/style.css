@@ -195,3 +195,50 @@ header{
     color: #838282;
     padding: .7rem 0 0 0;
 }
+.support-h{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.7rem;
+    padding-left: 2rem;
+    margin-top: 4.5rem;
+}
+.feature-details{
+    display: flex;
+    padding: 2.7rem 2rem 0 2rem;
+    justify-content:space-between;
+}
+.feature-details .left .f1{
+    /* border: 1px solid red; */
+    background-color: rgb(63, 135, 242);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 460px;
+    padding: 1.2rem 1.4rem;
+    border-radius: 40px;
+}
+.feature-details .left .f2,.f3,.f4,.f5{
+    background-color: #fff;
+    border: 1.2px solid rgb(184, 183, 183);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 460px;
+    padding: 1.2rem 1.4rem;
+    border-radius: 40px;
+    margin: 1.3rem 0 1.3rem 0;
+}
+.feature-details .left .f1 h1,.f2 h1,.f3 h1,.f4 h1,.f5 h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+.feature-details .left .f2 h1,.f3 h1,.f4 h1,.f5 h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3rem;
+    color: #171717;
+}
+.feature-details .left .f1 img,.f2 img,.f3 img,.f4 img,.f5 img{
+    width: 2rem;
+}
