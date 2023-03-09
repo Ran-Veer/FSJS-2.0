@@ -312,7 +312,7 @@ header{
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
 }
 .hosting-head .l-img img{
     width: 2.7rem;
@@ -336,7 +336,7 @@ header{
     justify-content: space-between;
     /* padding: 1rem 1.2rem; */
     margin-top: 4rem;
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem 4rem 1rem;
 }
 .p-card .p-card1,.p-card3{
     background-color: #fcfbfb;
@@ -344,27 +344,28 @@ header{
     border-radius: 15px;
     font-family: 'Inter', sans-serif;
 }
-.p-card .p-card1 .L1{
+.p-card .p-card1 .L1,.p-card3 .R1{
     border-bottom:1px solid #a2a2a2;
+    margin-bottom: 1.5rem;
 }
-.p-card .p-card1 .L1 h2{
+.p-card .p-card1 .L1 h2,.p-card3 .R1 h2{
     font-size: 1.5rem;
 }
-.p-card .p-card1 .L1 h1{
+.p-card .p-card1 .L1 h1,.p-card3 .R1 h1{
     font-size: 2.5rem;
     margin: 1rem 0 1rem 0;
 }
-.p-card .p-card1 .L1 h1 span{
+.p-card .p-card1 .L1 h1 span,.p-card3 .R1 h1 span{
     font-size: 1.5rem;
     color: #838282;
     font-weight: 500;
 }
-.p-card .p-card1 .L1 p{
+.p-card .p-card1 .L1 p,.p-card3 .R1 p{
     font-size: .7rem;
     font-weight: bolder;
     padding-bottom: 1.5rem;
 }
-.p-card .p-card1 .L2,.L3,.L4,.L5,.L6,.L7,.L8{
+.p-card .p-card1 .L2,.L3,.L4,.L5,.L6,.L7,.L8,.p-card3 .R2,.R3,.R4,.R5,.R6,.R7,.R8{
     display: flex;
     flex-direction: row;
     margin: 1rem 0 1rem 0;
@@ -373,12 +374,12 @@ header{
 .blue-tick img{
     width: .9rem;
 }
-.p-card .p-card1 .L2 p,.L3 p,.L4 p,.L5 p,.L6 p,.L7 p,.L8 p{
+.p-card .p-card1 .L2 p,.L3 p,.L4 p,.L5 p,.L6 p,.L7 p,.L8 p,.p-card3 .R2 p,.R3 p,.R4 p,.R5 p,.R6 p,.R7 p,.R8 p{
     font-size: .9rem;
     font-weight: 500;
 }
-.p-card .p-card1 .select-btn a{
-    padding: .5rem 6rem;
+.p-card .p-card1 .select-btn a,.p-card3 .select-btn a{
+    padding: .7rem 6rem;
     background-color: rgb(32, 103, 227);
     color: #e9e8e8;
     text-decoration: none;
@@ -391,11 +392,66 @@ header{
 }
 .p-card2 .M1 h2{
     font-size: 1.5rem;
-    color: #e9e8e8;
+    color: #fffdfd;
 }
 .p-card .p-card2{
     background-color: rgb(87, 163, 255);
     padding: 1rem 1.4rem;
     border-radius: 15px;
     font-family: 'Inter', sans-serif;
+}
+.p-card .p-card2 .M1 h1{
+    font-size:2.5rem;
+    color:#fbfbfb;
+    font-weight: 500;
+    margin: .7rem 0 .7rem 0;
+}
+.p-card .p-card2 .M1 h1 span{
+    color: #a8d5fd;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+.p-card .p-card2 .M1 p{
+    font-size: .7rem;
+    font-weight:500;
+    padding-bottom:1.2rem;
+    line-height: 18px;
+    color:#f9f9f9;
+}
+.p-card .p-card2 .M1{
+    border-bottom:1px solid #a8d5fd;
+    margin-bottom: 1.5rem;
+}
+.p-card .p-card2 .M2,.M3,.M4,.M5,.M6,.M7,.M8{
+    display: flex;
+    flex-direction: row;
+    margin: .8rem 0 .8rem 0;
+    gap: 10px;
+    line-height:20px;
+}
+.p-card .p-card2 .M2 p,.M3 p,.M4 p,.M5 p,.M6 p,.M7 p,.M8 p{
+    font-size: .9rem;
+    font-weight:400;
+    color: #d6eeff;
+}
+.p-card .p-card2 .select-btn a{
+    padding: .7rem 6rem;
+    background-color: #e9e8e8 ;
+    color: rgb(32, 103, 227);
+    text-decoration: none;
+    font-size: .8rem;
+    border-radius: 15px;
+}
+.p-card .p-card2 .select-btn{
+    margin: 1.6rem 0 1rem 0;
+}
+.p-card .p-card3 .R1 p{
+    line-height: 17px;
+}
+.p-card.p-card3 .R2,.R3,.R4,.R5,.R6,.R7,.R8{
+    line-height: 14px;
+}
+.p-card .p-card3 .select-btn{
+    margin: 1.2rem 0 1rem 0;
 }
