@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -327,4 +329,73 @@ header{
     width: 2.7rem;
     margin-top: 6rem;
     margin-right: 2rem;
+}
+.p-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 1rem 1.2rem; */
+    margin-top: 4rem;
+    padding: 0 1rem 0 1rem;
+}
+.p-card .p-card1,.p-card3{
+    background-color: #fcfbfb;
+    padding: 1rem 1.4rem;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.p-card .p-card1 .L1{
+    border-bottom:1px solid #a2a2a2;
+}
+.p-card .p-card1 .L1 h2{
+    font-size: 1.5rem;
+}
+.p-card .p-card1 .L1 h1{
+    font-size: 2.5rem;
+    margin: 1rem 0 1rem 0;
+}
+.p-card .p-card1 .L1 h1 span{
+    font-size: 1.5rem;
+    color: #838282;
+    font-weight: 500;
+}
+.p-card .p-card1 .L1 p{
+    font-size: .7rem;
+    font-weight: bolder;
+    padding-bottom: 1.5rem;
+}
+.p-card .p-card1 .L2,.L3,.L4,.L5,.L6,.L7,.L8{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0 1rem 0;
+    gap: 10px;
+}
+.blue-tick img{
+    width: .9rem;
+}
+.p-card .p-card1 .L2 p,.L3 p,.L4 p,.L5 p,.L6 p,.L7 p,.L8 p{
+    font-size: .9rem;
+    font-weight: 500;
+}
+.p-card .p-card1 .select-btn a{
+    padding: .5rem 6rem;
+    background-color: rgb(32, 103, 227);
+    color: #e9e8e8;
+    text-decoration: none;
+    font-size: .8rem;
+    border-radius: 15px;
+
+}
+.p-card .p-card1 .select-btn{
+    margin: 1.5rem 0 1rem 0;
+}
+.p-card2 .M1 h2{
+    font-size: 1.5rem;
+    color: #e9e8e8;
+}
+.p-card .p-card2{
+    background-color: rgb(87, 163, 255);
+    padding: 1rem 1.4rem;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
 }
