@@ -188,7 +188,7 @@ header{
     box-shadow:0px 6.1px 4.4px rgba(0, 0, 0, 0.144),0px 49px 48px rgba(0, 0, 0, 0.21);
 }
 .card-container .card2:hover{
-    background-color:rgb(123, 5, 5);
+    background-color:rgba(118, 8, 178, 0.851);
 }
 .card-container .card2 h1{
     color:rgb(243, 241, 241);
@@ -208,6 +208,10 @@ header{
     font-weight: 600;
     color: #838282;
     padding: .7rem 0 0 0;
+    transition: .4s ease-in-out;
+}
+.card-container .card2 p:hover{
+    color: #fef8f8;
 }
 .support-h{
     font-family: 'Nunito Sans', sans-serif;
