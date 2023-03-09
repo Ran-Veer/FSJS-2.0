@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -223,6 +224,7 @@ header{
     display: flex;
     padding: 2.7rem 2rem 0 2rem;
     justify-content:space-between;
+    padding-bottom: 5rem;
 }
 .feature-details .left .f1{
     /* border: 1px solid red; */
@@ -262,8 +264,8 @@ header{
 }
 .right{
     border: 1px solid black;
-    width: 360px;
-    border-radius: 15px;
+    width: 365px;
+    border-radius: 25px;
     padding: .8rem .8rem;
     height: 100%;
     background-color: #000000;
@@ -273,16 +275,56 @@ header{
     /* border: 1.2px solid rgb(184, 183, 183); */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    width: 330px;
-    padding: .8rem 1.4rem;
+    gap: 10px;
+    width: 340px;
+    padding: .8rem 1.2rem;
     border-radius: 40px;
-    margin: .3rem 0 .3rem 0;
+    margin: .5rem 0 .5rem 0;
 }
 .feature-details .right .r1 h1 ,.r2 h1,.r3 h1,.r4 h1,.r5 h1,.r6 h1,.r7 h1,.r8 h1{
     font-family: 'Nunito Sans', sans-serif;
     font-size: .9rem;
-    color: #f7f7f7;
+    color: #e9e8e8;
     font-weight: 400;
+    /* position:relative;
+    right: 55px; */
+    font-family: 'Rubik', sans-serif;
+    
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #e7e7e7;
+}
+.price-card{
+    width: 100%;
+    min-height: 100vh;
+    padding:0 5.5rem;
+    background-color: #171718;
+}
+.hosting-head{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    border: 1px solid gold;
+}
+.hosting-head .l-img img{
+    width: 2.7rem;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+.hosting-head .text h1{
+    color: #fbfbfb;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.hosting-head .r-img img{
+    width: 2.7rem;
+    margin-top: 6rem;
+    margin-right: 2rem;
 }
