@@ -455,3 +455,82 @@ header{
 .p-card .p-card3 .select-btn{
     margin: 1.2rem 0 1rem 0;
 }
+.customer-rating{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5.5rem 5.2rem 0 5.2rem;
+}
+.rating-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.rating-head h1{
+    font-size: 2.8rem;
+    line-height:3.5rem;
+}
+.rating-head p{
+    color: #a2a2a2;
+}
+.rating-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem 0 3.5rem 0;
+    gap: 20px;
+}
+.rating-card .left-rating,.right-rating{
+    /* border: 1px solid red; */
+    width: 450px;
+    height:270px;
+    padding: 1.5rem 1.2rem;
+    border-radius: 15px;
+    background-color: #000000;
+}
+.rating-card .right-rating{
+    background-color: #fff;
+    border: 1px solid black;
+}
+.rating-card .left-rating .mark span img,.right-rating .mark span img{
+    width: 1rem;
+}
+.rating-card .left-rating h3,.right-rating h3{
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #f7f6f6;
+}
+.rating-card .right-rating h3{
+    color: #000000;
+    font-size: 1rem;
+    /* margin: 1rem 0; */
+    font-family: 'Nunito Sans', sans-serif;
+}
+.rating-card .left-rating h3 span{
+    font-size: .8rem;
+    color: #a2a2a2;
+    font-weight: 400;
+}
+.rating-card .right-rating h3 span{
+    font-size: .8rem;
+    color: #2b2b2b;
+    /* font-weight:600; */
+}
+.rating-card .left-rating p{
+    font-size: 1.2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 1rem;
+    color: #f6f6f6;
+}
+.rating-card .right-rating p{
+    font-size: 1.3rem;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 1rem;
+    color: #090909;
+    font-weight: 600;
+}
+.rating-card .left-rating .star img,.right-rating .star img{
+    width: 1.3rem;
+}
