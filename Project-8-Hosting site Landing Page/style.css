@@ -601,3 +601,10 @@ footer .sign-up-form .form button{
     color: #fcfbfb;
     border-radius: 30px;
 }
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #dadada;
+    font-family: 'Nunito Sans', sans-serif;
+}
