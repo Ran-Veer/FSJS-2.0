@@ -557,19 +557,22 @@ footer{
     width: 100%;
     min-height: 100vh;
     padding: 0 5.5rem;
-    background-color: #171717;
+    background-color: #0b0b0b;
 }
 footer .f-heading{
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0 4rem 0;
+    /* border: 1px solid red; */
+    padding-top: 5rem;
 }
 footer .f-heading h1{
     font-size: 2.5rem;
     font-family: 'Inter', sans-serif;
     color: #fcfbfb;
+    font-weight: 500;
 }
 footer .sign-up-form .form{
     /* border: 1px solid red; */
@@ -580,7 +583,7 @@ footer .sign-up-form .form{
 }
 footer .sign-up-form{
     border-bottom: 1.5px solid rgb(180, 180, 180);
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
 }
 footer .sign-up-form .form input{
     padding: 1rem 2rem;
