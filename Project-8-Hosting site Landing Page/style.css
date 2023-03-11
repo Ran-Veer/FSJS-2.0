@@ -612,5 +612,27 @@ footer .sign-up-form .form button{
     justify-content: space-between;
     color: #dadada;
     font-family: 'Nunito Sans', sans-serif;
-    padding: 2rem 0 2.5rem 0;
+    padding: 3rem 6rem 3rem 3rem;
+    border-bottom: 1.5px solid rgb(180, 180, 180);
+}
+.footer-menu .company h1,.features h1,.help h1,.social h1{
+    font-size: 1rem;
+    font-weight: 400;
+   text-align:left;
+   /* border: 1px solid red; */
+   /* margin-left: .7rem; */
+   margin-bottom: 1rem;
+}
+.footer-menu .company p,.features p,.help p,.social p{
+    font-size: .8rem;
+    margin:.4rem 0;
+    text-align: left;
+    /* border: 1px solid red; */
+}
+.footer-logo{
+   margin-top: 2rem;
+   padding-bottom: 2.5rem;
+}
+.footer-logo img{
+    width: 8rem;
 }
