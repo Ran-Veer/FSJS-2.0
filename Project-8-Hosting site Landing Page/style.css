@@ -9,6 +9,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 header{
     width: 100%;
     min-height: 100vh;
@@ -600,6 +603,8 @@ footer .sign-up-form .form button{
     background-color: rgb(112, 212, 255);
     color: #fcfbfb;
     border-radius: 30px;
+    border: none;
+    cursor: pointer;
 }
 .footer-menu{
     display: flex;
@@ -607,4 +612,5 @@ footer .sign-up-form .form button{
     justify-content: space-between;
     color: #dadada;
     font-family: 'Nunito Sans', sans-serif;
+    padding: 2rem 0 2.5rem 0;
 }
