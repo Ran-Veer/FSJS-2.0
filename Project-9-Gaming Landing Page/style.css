@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./Assets/Photos/futuristic-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 5.5rem;
+}
