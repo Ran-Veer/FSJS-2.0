@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,8 +7,130 @@
 header{
     width: 100%;
     min-height: 100vh;
-    background-image: url(./Assets/Photos/futuristic-bg.png);
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./Assets/Photos/futuristic-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 2rem 5.5rem;
+    background-size:cover;
+    background-position: center;
+    padding: 0rem 5.4rem;
+}
+.navbar-container{
+    /* padding-top: 20px; */
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid aqua; */
+}
+.navbar-container,.nav-menu,.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+    margin-bottom: .5rem;
+
+}
+.navbar-container>.logo>img{
+    width:6.5rem;
+    cursor: pointer;
+}
+.nav-menu{
+    width: 80%;
+    height:60px;
+}
+.nav-menu .list li{
+    list-style: none;
+    padding-right:30px;
+}
+.nav-menu .list li a{
+    text-decoration: none;
+    color:#d9d6d6;
+    font-size: .7rem;
+    font-weight:400;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s ease-in-out;
+}
+.nav-menu .login-btn a{
+    padding: 8px 20px;
+    background-color: rgb(213, 111, 74);
+    /* border-radius: 20px; */
+    /* border: 1px solid rgb(70, 148, 238); */
+    transition: .4s ease;
+    text-decoration: none;
+    color: #f5f3f3;
+    font-size: .7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+}
+.nav-menu .login-btn p{
+    color: #e6e6e6;
+    font-size: .7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.nav-menu .login-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hero-container{
+    width: 100%;
+    padding: 4rem 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.hero-container .left h1{
+    color: #fff;
+    font-weight:700;
+    font-size: 3.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    /* word-spacing:px; */
+    line-height:4rem;
+}
+.hero-container .left h1 span{
+    color: rgb(59, 134, 255);
+    font-style: italic;
+    font-weight:700;
+    font-family: 'Roboto', sans-serif;
+}
+.hero-container .left p{
+    color:#838282;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    word-spacing: 2px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+.hero-container>.left>.h-btn>a{
+    text-decoration: none;
+    font-family:poppins;
+    font-size: .8rem;
+    color: #fff;
+    padding: 10px 25px;
+    background-color: rgb(213, 111, 74);
+    /* border-radius: 20px; */
+    border: 1px solid #fff;
+    transition: .4s ease; 
+}
+.hero-container>.left>.h-btn .btn-2{
+    background-color: transparent;
+    margin-left:20px;
+}
+.hero-container>.left>.h-btn{
+    margin-top: 2.5rem;
+}
+.hero-container>.right>img{
+    width:4rem;
+    /* padding-right: 15px; */
+}
+.hero-container>.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 40%;
+    height:40vh;
+    /* padding-bottom: 5rem; */
+    /* margin-bottom: 4rem; */
 }
