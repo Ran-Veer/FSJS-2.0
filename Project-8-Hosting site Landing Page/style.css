@@ -346,6 +346,11 @@ header{
     padding: 1rem 1.4rem;
     border-radius: 15px;
     font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.p-card .p-card1:hover,.p-card3:hover{
+background-color:rgb(218, 223, 64);
 }
 .p-card .p-card1 .L1,.p-card3 .R1{
     border-bottom:1px solid #a2a2a2;
@@ -402,6 +407,11 @@ header{
     padding: 1rem 1.4rem;
     border-radius: 15px;
     font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.p-card .p-card2:hover{
+    background-color:rgb(148, 3, 8);
 }
 .p-card .p-card2 .M1 h1{
     font-size:2.5rem;
@@ -491,10 +501,18 @@ header{
     padding: 1.5rem 1.2rem;
     border-radius: 15px;
     background-color: #000000;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.rating-card .right-rating:hover{
+    background-color:rgb(218, 223, 64);
 }
 .rating-card .right-rating{
     background-color: #fff;
     border: 1px solid black;
+}
+.rating-card .left-rating:hover{
+    background-color: rgb(110, 2, 11);
 }
 .rating-card .left-rating .mark span img,.right-rating .mark span img{
     width: 1rem;
@@ -605,6 +623,10 @@ footer .sign-up-form .form button{
     border-radius: 30px;
     border: none;
     cursor: pointer;
+    transition: .4s ease-in-out;
+}
+footer .sign-up-form .form button:hover{
+background-color:rgb(110, 2, 11);
 }
 .footer-menu{
     display: flex;
@@ -622,12 +644,22 @@ footer .sign-up-form .form button{
    /* border: 1px solid red; */
    /* margin-left: .7rem; */
    margin-bottom: 1rem;
+   cursor: pointer;
+   transition: .4s ease-in-out;
+}
+.footer-menu .company h1:hover,.features h1:hover,.help h1:hover,.social h1:hover{
+    color: rgb(196, 2, 2);
 }
 .footer-menu .company p,.features p,.help p,.social p{
     font-size: .8rem;
     margin:.4rem 0;
     text-align: left;
     /* border: 1px solid red; */
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.footer-menu .company p:hover,.features p:hover,.help p:hover,.social p:hover{
+    color:rgb(196, 2, 2) ;
 }
 .footer-logo{
    margin-top: 2rem;
@@ -635,4 +667,5 @@ footer .sign-up-form .form button{
 }
 .footer-logo img{
     width: 8rem;
+    cursor: pointer;
 }
