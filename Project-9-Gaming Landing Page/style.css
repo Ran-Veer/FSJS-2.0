@@ -48,6 +48,9 @@ header{
     font-family: 'Poppins', sans-serif;
     transition: .3s ease-in-out;
 }
+.nav-menu .list li a:hover{
+    color:rgb(255, 68, 0);
+}
 .nav-menu .login-btn a{
     padding: 8px 20px;
     background-color: rgb(213, 111, 74);
@@ -60,12 +63,21 @@ header{
     font-family: 'Poppins', sans-serif;
     font-weight:500;
 }
+.nav-menu .login-btn a:hover{
+    background-color: transparent;
+    border:1px solid rgb(253, 7, 7);
+}
 .nav-menu .login-btn p{
     color: #e6e6e6;
     font-size: .7rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     margin-right: 20px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.nav-menu .login-btn p:hover{
+    color: rgb(249, 6, 6);
 }
 .nav-menu .login-btn{
     display: flex;
@@ -106,6 +118,10 @@ header{
     /* border-radius: 20px; */
     border: 1px solid #fff;
     transition: .4s ease; 
+}
+.hero-container>.left>.h-btn>a:hover{
+    background-color: transparent;
+    border: 1px solid rgb(255, 183, 0);
 }
 .hero-container>.left>.h-btn .btn-2{
     background-color: transparent;
