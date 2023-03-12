@@ -177,7 +177,7 @@ section{
     padding: 0 5.5rem;
 }
 section main .text{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,12 +193,15 @@ section main .text h1{
 section main .rating-card{
     width: 100%;
     min-height: 100vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 2.5rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.rating-card .card1{
+.rating-card .card1,.card2,.card3,.card4{
     width: 210px;
-    height: 240px;
+    height: 260px;
     background-image: url(./Assets/Photos/image\ 2.png);
     background-repeat: no-repeat;
     background-position:80% 30%;
@@ -206,7 +209,7 @@ section main .rating-card{
     display: flex;
     align-items: flex-end;
 }
-.rating-card .card1 .rating1{
+.rating-card .card1 .rating1,.card2 .rating2,.card3 .rating3,.card4 .rating4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -217,32 +220,44 @@ section main .rating-card{
     padding: 0 .6rem;
     background-color: #565555e4;
 }
-.rating-card .card1 .rating1 .text1 h4{
+.rating-card .card1 .rating1 .text1 h4,.card2 .rating2 .text2 h4,.card3 .rating3 .text3 h4,.card4 .rating4 .text4 h4{
     color: #f5f3f3;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: .8rem;
     margin-bottom: 2px;
 }
-.rating-card .card1 .rating1 .text1 p{
+.rating-card .card1 .rating1 .text1 p,.card2 .rating2 .text2 p,.card3 .rating3 .text3 p,.card4 .rating4 .text4 p{
     color: #c9c9c9;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: .7rem;
     margin-bottom: 2px;
 }
-.rating-card .card1 .rating1 .text1 img{
+.rating-card .card1 .rating1 .text1 img,.card2 .rating2 .text2 img,.card3 .rating3 .text3 img,.card4 .rating4 .text4 img{
     width: .7rem;
 }
-.rating-card .card1 .rating1 .btn1{
+.rating-card .card1 .rating1 .btn1,.card2 .rating2 .btn2,.card3 .rating3 .btn3,.card4 .rating4 .btn4{
     padding:5px 10px 7px 10px;
     background-color:rgb(207, 92, 50);
 }
-.rating-card .card1 .rating1 .btn1 a{
+.rating-card .card1 .rating1 .btn1 a,.card2 .rating2 .btn2 a,.card3 .rating3 .btn3 a,.card4 .rating4 .btn4 a{
     color: #f5f4f4;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: .7rem;
     text-decoration: none;
 
+}
+.rating-card .card2{
+    background-image: url(./Assets/Photos/image\ 4.png);
+    background-position: center;
+}
+.rating-card .card3{
+    background-image: url(./Assets/Photos/image\ 3.png);
+    background-position:48%;
+}
+.rating-card .card4{
+    background-image: url(./Assets/Photos/Rectangle\ 56.png);
+    background-position: center;
 }
