@@ -208,6 +208,12 @@ section main .rating-card{
     background-size: cover;
     display: flex;
     align-items: flex-end;
+    cursor: pointer;
+    border: 1px solid #fff;
+    transition: .2s ease-in-out;
+}
+.rating-card .card1:hover,.card2:hover,.card3:hover,.card4:hover{
+    border:2px solid rgb(106, 15, 15);
 }
 .rating-card .card1 .rating1,.card2 .rating2,.card3 .rating3,.card4 .rating4{
     display: flex;
