@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 header{
     width: 100%;
     min-height: 100vh;
@@ -192,7 +195,7 @@ section main .text h1{
 /* -----------------------Rating Card------------------------------------- */
 section main .rating-card{
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* border: 1px solid red; */
     margin: 2.5rem 0 0 0;
     display: flex;
@@ -209,11 +212,12 @@ section main .rating-card{
     display: flex;
     align-items: flex-end;
     cursor: pointer;
-    border: 1px solid #fff;
+    transform:translateY(5px);
     transition: .2s ease-in-out;
 }
 .rating-card .card1:hover,.card2:hover,.card3:hover,.card4:hover{
-    border:2px solid rgb(106, 15, 15);
+   transform:translateY(0px);
+    opacity: 1;
 }
 .rating-card .card1 .rating1,.card2 .rating2,.card3 .rating3,.card4 .rating4{
     display: flex;
@@ -224,9 +228,16 @@ section main .rating-card{
     width: 100%;
     height: 30%;
     padding: 0 .6rem;
+    transform: translateY(5px);
+    opacity: 0;
     /* background-color: #565555e4; */
     background:linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1));
     backdrop-filter: blur(20px);
+    transition: .4s;
+}
+.rating-card .card1 .rating1:hover,.card2 .rating2:hover,.card3 .rating3:hover,.card4 .rating4:hover{
+    transform: translateY(0px);
+    opacity: 1;
 }
 .rating-card .card1 .rating1 .text1 h4,.card2 .rating2 .text2 h4,.card3 .rating3 .text3 h4,.card4 .rating4 .text4 h4{
     color: #f5f3f3;
@@ -268,4 +279,74 @@ section main .rating-card{
 .rating-card .card4{
     background-image: url(./Assets/Photos/Rectangle\ 56.png);
     background-position: center;
+}
+/* --------------------------War Game Section---------------------------- */
+.war-game{
+    width: 100%;
+    margin-top: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 5rem;
+
+}
+.war-game .war-img{
+    width: 40%;
+    height:55vh;
+    background-image: url(./Assets/Photos/Rectangle\ 57.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transform: translateY(5px);
+    transition: .2s ease-in-out;
+}
+.war-game .war-img:hover{
+    transform: translateY(0);
+}
+.war-game .war-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+.war-game .war-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size:11px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #888787;
+}
+.war-game .war-text .war-btn a:nth-child(1){
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: .7rem 1.5rem;
+    background-color: rgb(205, 90, 49);
+    font-size: .7rem;
+    color: #fff;
+    font-weight: 500;
+    transition: .4s ease-in-out;
+}
+.war-game .war-text .war-btn a:nth-child(1):hover{
+    color: rgb(205, 90, 49) ;
+    background-color: transparent;
+    border: 2px solid  rgb(205, 90, 49) ;
+}
+.war-game .war-text .war-btn a:nth-child(2){
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: .7rem 1.5rem;
+    background-color:transparent;
+    font-size: .7rem;
+    color: rgb(205, 90, 49);
+    border: 2px solid rgb(205, 90, 49);
+    font-weight: 500;
+    margin-left: 15px;
+    transition: .4s ease-in-out;
+}
+.war-game .war-text .war-btn a:nth-child(2):hover{
+    color: #fff;
+    background-color:rgb(205, 90, 49);
+}
+.war-game .war-text .war-btn{
+    margin-top: 2rem;
 }
