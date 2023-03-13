@@ -392,6 +392,12 @@ section main .rating-card{
 }
 .game-grid .game1 .g-img-1 img,.game2 .g-img-2 img,.game3 .g-img-3 img,.game4 .g-img-4 img{
     width: 11rem;
+    cursor: pointer;
+    transform: translateY(7px);
+    transition: .3s ease-in-out;
+}
+.game-grid .game1 .g-img-1 img:hover,.game2 .g-img-2 img:hover,.game3 .g-img-3 img:hover,.game4 .g-img-4 img:hover{
+    transform: translateY(0px);
 }
 .game-grid .game1 .game1-text h4,.game2 .game2-text h4,.game3 .game3-text h4,.game4 .game4-text h4{
     font-family: 'Poppins', sans-serif;
@@ -422,4 +428,8 @@ section main .rating-card{
     background-color: rgb(224, 86, 59) ;
     font-family: 'Poppins', sans-serif;
     font-size: .8rem;
+    transition: .3s ease-in-out;
+}
+.game-grid .game1 .game1-text a:hover,.game2 .game2-text a:hover,.game3 .game3-text a:hover,.game4 .game4-text a:hover{
+    background-color: rgb(6, 122, 171);
 }
