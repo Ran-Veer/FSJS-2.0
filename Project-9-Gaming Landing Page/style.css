@@ -288,6 +288,7 @@ section main .rating-card{
     flex-direction: row;
     /* justify-content: space-between; */
     gap: 5rem;
+    margin-bottom: 5rem;
 
 }
 .war-game .war-img{
@@ -349,4 +350,28 @@ section main .rating-card{
 }
 .war-game .war-text .war-btn{
     margin-top: 2rem;
+}
+.game-text{
+    width: 100%;
+    margin-top:6rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.game-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+}
+.game-text .arrow img:nth-child(1){
+    padding: 1rem .7rem;
+    width: 3rem;
+    background-color: rgb(255, 218, 218);
+}
+.game-text .arrow img:nth-child(2){
+    padding: 1rem .7rem;
+    width: 3rem;
+    background-color: rgb(244, 108, 45);
+    margin-left: 8px;
 }
