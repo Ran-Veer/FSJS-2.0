@@ -351,6 +351,7 @@ section main .rating-card{
 .war-game .war-text .war-btn{
     margin-top: 2rem;
 }
+/* ----------------------------Recommend Game Section--------------------------- */
 .game-text{
     width: 100%;
     margin-top:6rem;
@@ -374,4 +375,51 @@ section main .rating-card{
     width: 3rem;
     background-color: rgb(244, 108, 45);
     margin-left: 8px;
+}
+/* -------------------------------Game Card Grid------------------------------------ */
+.game-grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+.game-grid .game1,.game2,.game3,.game4{
+    width: 430px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-bottom: 4.5rem;
+}
+.game-grid .game1 .g-img-1 img,.game2 .g-img-2 img,.game3 .g-img-3 img,.game4 .g-img-4 img{
+    width: 11rem;
+}
+.game-grid .game1 .game1-text h4,.game2 .game2-text h4,.game3 .game3-text h4,.game4 .game4-text h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-top: .3rem;
+}
+.game-grid .game1 .game1-text p:nth-child(2),.game2 .game2-text p:nth-child(2),.game3 .game3-text p:nth-child(2),.game4 .game4-text p:nth-child(2){
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    color: rgb(244, 108, 45);
+    font-weight: 500;
+    margin-top: .3rem;
+}
+.game-grid .game1 .game1-text p:nth-child(3),.game2 .game2-text p:nth-child(3),.game3 .game3-text p:nth-child(3),.game4 .game4-text p:nth-child(3){
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+    /* color: rgb(244, 108, 45); */
+    font-weight: 500;
+    margin-top: .5rem;
+    line-height: 1.3rem;
+    margin-bottom: 2rem;
+    color: #767676;
+}
+.game-grid .game1 .game1-text a,.game2 .game2-text a,.game3 .game3-text a,.game4 .game4-text a{
+    text-decoration: none;
+    padding: .6rem 1.6rem;
+    color: #f5f4f4;
+    background-color: rgb(224, 86, 59) ;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
 }
