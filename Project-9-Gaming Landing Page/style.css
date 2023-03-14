@@ -136,6 +136,12 @@ header{
 .hero-container>.right>img{
     width:4rem;
     padding-top: 5rem;
+    cursor: pointer;
+    transform: translateY(7px);
+    transition: .2s ease-in-out;
+}
+.hero-container>.right>img:hover{
+    transform: translateY(0px);
 }
 .hero-container>.right{
     display: flex;
@@ -544,6 +550,7 @@ section main .rating-card{
 .gamer .gamer-text a:hover{
     background-color:rgba(208, 218, 12, 0.576);
 }
+/* ------------------------Footer----------------------------------------- */
 footer{
     background-color: #000000;
     padding: 4rem 5.5rem 1.5rem 5.5rem;
@@ -554,6 +561,7 @@ footer{
 }
 footer .footer-logo img{
     width: 6rem;
+    cursor: pointer;
 }
 footer .footer-logo p{
     color: #afaeae;
@@ -562,11 +570,17 @@ footer .footer-logo p{
    margin-top: 1rem;
    line-height: 1.3rem;
    margin-bottom: 1rem;
+   cursor: pointer;
 }
 footer .footer-logo .social-logo img{
     width: 1.8rem;
     margin-left:.3rem;
     cursor: pointer;
+    transform: translateY(7px);
+    transition: .2s ease-in-out;
+}
+footer .footer-logo .social-logo img:hover{
+    transform: translateY(0px);
 }
 footer .footer-menu h4{
     color: #f3f2f2;
@@ -574,6 +588,11 @@ footer .footer-menu h4{
    font-size: .8rem;
    font-weight: 500;
    margin-bottom: 1rem;
+   cursor: pointer;
+   transition: .3s ease-in-out;
+}
+footer .footer-menu h4:hover{
+    color: rgba(222, 14, 14, 0.729);
 }
 footer .footer-menu p{
     color: #929090;
@@ -581,4 +600,9 @@ footer .footer-menu p{
    font-size: .7rem;
    font-weight: 500;
    line-height: 1.6rem;
+   cursor: pointer;
+   transition: .3s ease-in-out;
+}
+footer .footer-menu p:hover{
+    color: rgba(255, 0, 0, 0.917);
 }
