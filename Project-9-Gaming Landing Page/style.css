@@ -434,11 +434,12 @@ section main .rating-card{
 .game-grid .game1 .game1-text a:hover,.game2 .game2-text a:hover,.game3 .game3-text a:hover,.game4 .game4-text a:hover{
     background-color: rgb(6, 122, 171);
 }
+/* ---------------------------Most Played Game Section------------------------- */
 .footer{
     width: 100%;
     min-height: 100vh;
     padding: 0 5.5rem;
-    background-color: #111111;
+    background-color: #000000;
 }
 .footer .most{
     /* border: 1px solid red; */
@@ -451,6 +452,93 @@ section main .rating-card{
     text-align: center;
     font-weight: 600;
 }
+.game-img {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
 .game-img .left img{
     width: 18rem;
+    cursor: pointer;
+    transform: translateY(7px);
+    transition: .4s ease-in-out;
+}
+.game-img .left img:hover{
+    transform: translateY(0px);
+}
+.footer .game-img{
+    background-image: url(./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg);
+    background-repeat: no-repeat;
+    background-size:42rem;
+    background-position: 110% 35%;
+    z-index: -1;
+}
+.game-img .right p{
+   color: #b0afaf;
+   font-family: 'Poppins', sans-serif;
+   font-size: .7rem;
+   line-height: 22px;
+   margin-bottom: 3.8rem;
+   margin-top: 3rem;
+}
+.game-img .right img:nth-child(2){
+    width:14rem;
+    cursor: pointer;
+    transform: translateY(7px);
+    transition: .4s ease-in-out;
+}
+.game-img .right img:nth-child(2):hover{
+    transform: translateY(0px);
+}
+.game-img .right img:nth-child(3){
+    width: 13rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    transform: translateY(7px);
+    transition: .4s ease-in-out;
+}
+.game-img .right img:nth-child(3):hover{
+    transform: translateY(0px);
+}
+.gamer{
+    background-image:linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.7)), url(./Assets/Photos/Rectangle\ 606.png);
+    background-repeat: no-repeat;
+    background-size:60rem;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gamer .gamer-text{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gamer .gamer-text h1{
+    color: #f5f4f4;
+    font-family: 'Poppins', sans-serif;
+   font-size: 1.8rem;
+   text-align: center;
+}
+.gamer .gamer-text p{
+    color: #afaeae;
+    font-family: 'Poppins', sans-serif;
+   font-size: .7rem;
+   text-align: center;
+   margin-top: .9rem;
+   margin-bottom: 1.8rem;
+}
+.gamer .gamer-text a{
+    text-decoration: none;
+    color: #f5f4f4;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    padding: .6rem 1.5rem;
+    background-color:  rgb(224, 86, 59);
+    transition: .3s ease-in-out;
+}
+.gamer .gamer-text a:hover{
+    background-color:rgba(208, 218, 12, 0.576);
 }
