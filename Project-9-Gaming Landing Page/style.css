@@ -566,6 +566,7 @@ footer .footer-logo p{
 footer .footer-logo .social-logo img{
     width: 1.8rem;
     margin-left:.3rem;
+    cursor: pointer;
 }
 footer .footer-menu h4{
     color: #f3f2f2;
