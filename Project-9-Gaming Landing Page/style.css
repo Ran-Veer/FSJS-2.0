@@ -380,6 +380,7 @@ section main .rating-card{
 .game-grid{
     display: grid;
     grid-template-columns: 500px 500px;
+    margin-bottom: 4rem;
 }
 .game-grid .game1,.game2,.game3,.game4{
     width: 430px;
@@ -432,4 +433,24 @@ section main .rating-card{
 }
 .game-grid .game1 .game1-text a:hover,.game2 .game2-text a:hover,.game3 .game3-text a:hover,.game4 .game4-text a:hover{
     background-color: rgb(6, 122, 171);
+}
+.footer{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 5.5rem;
+    background-color: #111111;
+}
+.footer .most{
+    /* border: 1px solid red; */
+    padding: 2.8rem 0;
+}
+.footer .most h1{
+    color: #f5f4f4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+}
+.game-img .left img{
+    width: 18rem;
 }
