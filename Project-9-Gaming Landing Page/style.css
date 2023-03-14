@@ -503,12 +503,14 @@ section main .rating-card{
 .gamer{
     background-image:linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.7)), url(./Assets/Photos/Rectangle\ 606.png);
     background-repeat: no-repeat;
-    background-size:60rem;
+    background-size:70rem;
     margin-top: 5rem;
+    background-position:40%;
     padding-bottom: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid red; */
 }
 .gamer .gamer-text{
     margin-top: 4rem;
@@ -541,4 +543,41 @@ section main .rating-card{
 }
 .gamer .gamer-text a:hover{
     background-color:rgba(208, 218, 12, 0.576);
+}
+footer{
+    background-color: #000000;
+    padding: 4rem 5.5rem 1.5rem 5.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(158, 158, 158);
+}
+footer .footer-logo img{
+    width: 6rem;
+}
+footer .footer-logo p{
+    color: #afaeae;
+    font-family: 'Poppins', sans-serif;
+   font-size: .7rem;
+   margin-top: 1rem;
+   line-height: 1.3rem;
+   margin-bottom: 1rem;
+}
+footer .footer-logo .social-logo img{
+    width: 1.8rem;
+    margin-left:.3rem;
+}
+footer .footer-menu h4{
+    color: #f3f2f2;
+    font-family: 'Poppins', sans-serif;
+   font-size: .8rem;
+   font-weight: 500;
+   margin-bottom: 1rem;
+}
+footer .footer-menu p{
+    color: #929090;
+    font-family: 'Poppins', sans-serif;
+   font-size: .7rem;
+   font-weight: 500;
+   line-height: 1.6rem;
 }
