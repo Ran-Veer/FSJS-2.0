@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
@@ -7,7 +8,6 @@
 body::-webkit-scrollbar{
     display: none;
 }
-/* ---------------------------------Navigation Section------------------------------------------ */
 header{
     width: 100%;
     min-height:100vh;
@@ -17,6 +17,7 @@ header{
     background-position: 0% 20%;
     padding: 0rem 5rem;
 }
+/* -----------------------------Navigation Section--------------------------- */
 .navbar-container{
     /* border: 1px solid red; */
     display: flex;
@@ -47,4 +48,39 @@ header{
 }
 .navbar-container .nav-menu .list a:hover{
     color: rgb(189, 234, 64);
+}
+/* ------------------Hero Section-------------------------------- */
+header .hero{
+    margin-top:7rem;
+    margin-left:2.2rem;
+}
+header .hero h1{
+    font-family: 'Manrope', sans-serif;
+    font-size: 3.5rem;
+    color: rgb(245, 245, 245);
+    line-height: 4rem;
+    margin-bottom: 1.4rem;
+}
+header .hero p{
+    font-family: 'Manrope', sans-serif;
+    font-size: .9rem;
+    color: rgb(228, 228, 228);
+    line-height: 1.5rem;
+    word-spacing: 1px;
+    margin-bottom: 2.2rem;
+}
+header .hero a{
+    text-decoration: none;
+    color: rgb(245 , 245, 245);
+    font-family: 'Manrope', sans-serif;
+    font-size: .9rem;
+    font-weight: 700;
+    padding: .8rem 2.3rem;
+    background-color: rgb(121, 102, 188);
+    border-radius: 25px;
+    transition: .2s ease;
+}
+header .hero a:hover{
+    background-color:transparent;
+    border: 1px solid rgb(245, 245, 245);
 }
