@@ -43,4 +43,8 @@ header{
     font-weight:300;
     font-size: .9rem;
     margin-right: 2.5rem;
+    transition: .3s ease-in-out;
+}
+.navbar-container .nav-menu .list a:hover{
+    color: rgb(189, 234, 64);
 }
