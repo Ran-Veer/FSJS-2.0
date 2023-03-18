@@ -120,13 +120,37 @@ header .hero a:hover{
 }
 .card-container{
     display: grid;
-    grid-template-columns:275px 275px 275px;
+    grid-template-columns:280px 280px 280px;
     margin-left: 9rem;
 }
 .card-container .card1{
     width:265px;
     height: 350px;
     /* border: 1px solid red; */
+}
+.card-container .card1:nth-child(2){
+    margin-top: 1rem;
+}
+.card-container .card1:nth-child(3){
+    margin-top: 2rem;
+}
+.card-container .card1:nth-child(4){
+    margin-top: 4rem;
+}
+.card-container .card1:nth-child(5){
+    margin-top: 3rem;
+}
+.card-container .card1:nth-child(6){
+    margin-top: 2rem;
+}
+.card-container .card1:nth-child(7){
+    margin-top: 2rem;
+}
+.card-container .card1:nth-child(8){
+    margin-top: 3rem;
+}
+.card-container .card1:nth-child(9){
+    margin-top: 4rem;
 }
 .card-container .card1 .card1-img{
     /* border: 1px solid red; */
