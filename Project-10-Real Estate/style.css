@@ -10,11 +10,11 @@ body::-webkit-scrollbar{
 }
 header{
     width: 100%;
-    min-height:100vh;
+    min-height:133vh;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./Assets/Photos/mainBackground.png);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: 0% 20%;
+    background-position: 0% 85%;
     padding: 0rem 5rem;
 }
 /* -----------------------------Navigation Section--------------------------- */
@@ -28,7 +28,7 @@ header{
     border-bottom: 1px solid rgb(245, 245, 245);
 }
 .navbar-container .logo img{
-    width: 8rem;
+    width: 7.8rem;
     cursor: pointer;
 }
 .navbar-container .nav-menu .list{
@@ -83,4 +83,21 @@ header .hero a{
 header .hero a:hover{
     background-color:transparent;
     border: 1px solid rgb(245, 245, 245);
+}
+/* ----------------------------- Multiple Logo Section --------------------------- */
+.multiple-logo{
+    background-color: rgb(255, 254, 254);
+    padding: 4rem 3rem;
+    width:95%;
+    border-radius: 15px;
+    position: relative;
+    bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1.7rem;
+    justify-content: space-around;
+}
+.multiple-logo img{
+    width: 7rem;
 }
