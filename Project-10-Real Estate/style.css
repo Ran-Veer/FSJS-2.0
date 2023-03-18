@@ -129,15 +129,14 @@ header .hero a:hover{
     /* border: 1px solid red; */
 }
 .card-container .card1 .card1-img{
-    width:260px;
-    height:300px;
     /* border: 1px solid red; */
     overflow: hidden;
-    background-image: url(./Assets/Photos/cardImage1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 20px;
-    background-position: 50% 0%;
+}
+.card-container .card1 .card1-img img{
+    width:320px;
+    height:300px;
+    border-radius: 20px;
 }
 .card-container .card1 .card1-details{
     display:flex;
