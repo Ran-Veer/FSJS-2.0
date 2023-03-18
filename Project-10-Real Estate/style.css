@@ -118,6 +118,11 @@ header .hero a:hover{
     font-family: 'Manrope', sans-serif;
     text-align: center;
 }
+.card-container{
+    display: grid;
+    grid-template-columns:275px 275px 275px;
+    margin-left: 9rem;
+}
 .card-container .card1{
     width:265px;
     height: 350px;
