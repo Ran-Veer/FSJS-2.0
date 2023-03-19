@@ -161,6 +161,12 @@ header .hero a:hover{
     width:320px;
     height:300px;
     border-radius: 20px;
+    cursor: pointer;
+    transform: translateY(0px);
+    transition: .3s ease-in-out;
+}
+.card-container .card1 .card1-img img:hover{
+    transform: translateY(7px);
 }
 .card-container .card1 .card1-details{
     display:flex;
@@ -175,6 +181,7 @@ header .hero a:hover{
     position: relative;
     bottom: 2.8rem;
     left: 1.09rem;
+    box-shadow: 0px 15px 25px -10px rgba(0,0,0,0.25);
 }
 .card-container .card1 .card1-details .price h4{
     font-size:1rem ;
@@ -196,4 +203,10 @@ header .hero a:hover{
     font-weight: 500;
     font-family: 'Manrope', sans-serif;
     border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+.card-container .card1 .card1-details a:hover{
+    background-color: transparent;
+    color:rgb(227, 3, 3);
+    border: 1px solid rgb(237, 52, 52);
 }
