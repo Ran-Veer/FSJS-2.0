@@ -106,6 +106,7 @@ header .hero a:hover{
 /* --------------------------- Card Section ------------------------------ */
 .card{
     background-color: rgb(239, 239, 239);
+    padding-bottom: 5rem;
 }
 /* ------------------------------ Card Heading --------------------------- */
 .card .card-heading{
@@ -209,4 +210,23 @@ header .hero a:hover{
     background-color: transparent;
     color:rgb(227, 3, 3);
     border: 1px solid rgb(237, 52, 52);
+}
+/* ---------------------------------------- Big Card Section ----------------------- */
+.big-card{
+    background-color: rgb(239, 239, 239);   
+}
+.big-card .big-card1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.big-card .big-card1 .big-card-img img:nth-child(1){
+    width:500px;
+    height:500px;
+}
+.big-card .big-card1 .big-card-img img:nth-child(2){
+    width:300px;
+    height:250px;
+    border-radius: 20px;
 }
