@@ -221,7 +221,7 @@ header .hero a:hover{
     /* align-items: center; */
     gap:3rem;
 }
-.big-card .big-card1 .big-card-img{
+.big-card .big-card1 .big-card-img,.big-card2 .big-card-img{
     display: flex;
     flex-direction: row;
     border: 1px solid red;
@@ -266,13 +266,14 @@ header .hero a:hover{
 }
 .big-card .big-card2 .big-card-img img:nth-child(1){
     width:500px;
-    height:500px;
+    height:400px;
+    margin-left:9.9rem;
 }
 .big-card .big-card2 .big-card-img img:nth-child(2){
     width:357px;
     height:357px;
     border-radius: 20px;
     position:relative;
-    right:400px;
-    top: 5px;
+    right: 460px;
+    top:15px;
 }
