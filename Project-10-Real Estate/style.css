@@ -388,6 +388,12 @@ header .hero a:hover{
     border-radius: 40px;
     border: none;
     cursor: pointer;
+    transition: .2s ease-in-out;
+    transform: translateX(5px);
+}
+.news-letter .email-input button:hover{
+    color: rgb(247, 9, 9);
+    transform: translateX(0px);
 }
 .news-letter .email-input ::placeholder{
     color: #bababa;
