@@ -215,18 +215,52 @@ header .hero a:hover{
 .big-card{
     background-color: rgb(239, 239, 239);   
 }
-.big-card .big-card1{
+.big-card .big-card1,.big-card2{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    
+    /* align-items: center; */
+    gap:3rem;
+}
+.big-card .big-card1 .big-card-img{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    width: 50%;
 }
 .big-card .big-card1 .big-card-img img:nth-child(1){
     width:500px;
     height:500px;
 }
 .big-card .big-card1 .big-card-img img:nth-child(2){
-    width:300px;
-    height:250px;
+    width:357px;
+    height:357px;
     border-radius: 20px;
+    position:relative;
+    right:400px;
+    top: 5px;
+}
+.big-card .big-card1 .card-text h1{
+    font-size: 2.7rem;
+    font-weight:900;
+    font-family: 'Manrope', sans-serif;
+    margin-top:5rem;
+}
+.big-card .big-card1 .card-text p{
+    font-size: .8rem;
+    font-weight:500;
+    font-family: 'Manrope', sans-serif;
+    margin-top:1.5rem;
+    color: rgb(80, 80, 80);
+    line-height:1.3rem;
+    margin-bottom: 2.5rem;
+}
+.big-card .big-card1 .card-text a{
+    text-decoration: none;
+    color: rgb(250, 247, 247);
+    padding: .7rem 1.7rem;
+    background-color:rgb(96, 79, 221);
+    border-radius: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-size: .8rem;
+    font-weight:bold;
 }
