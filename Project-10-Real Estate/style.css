@@ -405,3 +405,46 @@ header .hero a:hover{
     z-index: 1000;
     top: .1rem;
 }
+/*----------------------------Footer Section -----------------------------*/
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 8rem 2rem 8rem;
+}
+footer .left .footer-logo img{
+    width:8rem;
+    margin-bottom:1rem;
+    cursor: pointer;
+}
+footer .left .social-media img{
+    width:2.3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+footer .left .footer-text p{
+    font-family: 'Manrope', sans-serif;
+    font-size:.9rem;
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: #4f4e4e;
+    cursor: pointer;
+}
+footer .right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid red; */
+    gap: 5rem;
+    line-height:2.5rem;
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
+}
+footer .right .menu p{
+    font-size: .8rem;
+    font-weight:500;
+    color: #4f4e4e;
+    cursor: pointer;
+}
