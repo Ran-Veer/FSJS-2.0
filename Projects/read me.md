@@ -18,3 +18,5 @@ Project Details [Credit Card Landing Page](https://github.com/Ran-Veer/FSJS-2.0/
 Project Details [Hosting Site Landing Page](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-8-Hosting%20site%20Landing%20Page)
 ## **`9`** Project:- Hosting Site Landing Page
 Project Details [Gaming Site Landing Page](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-9-Gaming%20Landing%20Page)
+## **`10`** Project:-Real Estate Landing Page
+Project Details [Real Estate Landing Page](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-10-Real%20Estate%20Landing%20Page)
