@@ -380,6 +380,7 @@ header .hero a:hover{
     background-color: rgb(75, 61, 206);
     margin-right:1rem;
     z-index: -1;
+    color: #fff;
 }
 .news-letter .email-input button{
     padding: .8rem  2rem;
@@ -440,6 +441,10 @@ footer .left .footer-text p{
     font-weight: 500;
     color: #4f4e4e;
     cursor: pointer;
+    transition: .3s ease-in-out;
+}
+footer .left .footer-text p:hover{
+    box-shadow: 0px 15px 25px -10px rgba(0,0,0,0.25);
 }
 footer .right{
     display: flex;
