@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 body{
     background-color: rgb(12, 12, 12);
 }
@@ -12,7 +15,7 @@ body{
 
 header{
     width: 100%;
-    min-height: 100vh;
+    min-height:100vh;
 }
 .navbar-container{
     display: flex;
@@ -64,4 +67,76 @@ header{
 }
 .navbar-container .nav-menu .shop-btn a:hover{
     box-shadow: 0px 1px 40px 5px rgba(187, 7, 7, 0.708);
+}
+
+/*------------------------ Hero Section --------------------------------*/
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    padding: 0 5rem;
+    gap:12rem;
+}
+.hero-container .hero-img img{
+    width:14rem;
+    position:relative;
+    top:-11rem;
+    left: 6.2rem;
+}
+.hero-container .right-side> img{
+    width: 17rem;
+    margin-top:2.8rem;
+    margin-left: 3.5rem;
+}
+.hero-container .right-side h1{
+    color: rgb(245, 245, 245);
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight:600;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.hero-container .right-side>h4{
+    color: rgb(245, 245, 245);
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    font-weight:600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.hero-container .right-side>p{
+    color: rgb(179, 179, 179);
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+    font-weight:400;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+.hero-container .right-side .add-to-bag{
+    display: flex;
+    flex-direction: row;
+    padding: .6rem .5rem;
+    background-color:rgb(38, 38, 38) ;
+    align-items: center;
+    justify-content: space-around;
+    width:55%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.hero-container .right-side .add-to-bag img{
+    width: 1rem;
+}
+.hero-container .right-side .add-to-bag p{
+    color: rgb(245, 245, 245);
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+    font-weight:400;
+}
+.hero-container .right-side .add-to-bag h4{
+    color: rgb(245, 245, 245);
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    font-weight:600;
 }
