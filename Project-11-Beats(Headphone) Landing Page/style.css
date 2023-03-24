@@ -211,6 +211,10 @@ main .specs .specs-img img{
     color: rgb(245, 245, 245);
     margin-bottom: 1.5rem;
     cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.specs .specs-details .specs-text .specification:hover{
+    transform: translateY(-7px);
 }
 .specs .specs-details .specs-text .specification:nth-child(1),.specification:nth-child(4){
     margin-left: 2rem;
@@ -226,4 +230,9 @@ main .specs .specs-img img{
 }
 .specs .specs-details .headphone-img img{
     margin-top:2rem;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.specs .specs-details .headphone-img img:hover{
+    transform: translateY(-10px);
 }
