@@ -242,16 +242,61 @@ main .specs .specs-img img{
 /*------------------------ Case Section -------------------------*/
 
 main .case{
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
 }
 .case .case-text-img{
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
     width: 50%;
     margin: auto;
     display: flex;
     justify-content: center;
     margin-top:2rem;
+    margin-bottom: 1rem;
 }
 .case .case-text-img img{
     width: 10rem;
+}
+.case .case-detail{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: auto;
+    padding-top: 2rem;
+}
+.case .case-detail .case-img img{
+    width: 16rem;
+    cursor: pointer;
+}
+.case .case-detail .case-text{
+    /* border: 1px solid orange; */
+    margin-left: auto;
+}
+.case .case-detail .case-text p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(182, 180, 180);
+    font-weight:400;
+    font-size: .9rem;
+    margin-top: 5rem;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+.case .case-detail .case-text .info-btn{
+    padding: .7rem 1rem;
+    background-color: rgb(57, 57, 57);
+    /* border: 1px solid white; */
+    width: 60%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.case .case-detail .case-text .info-btn img{
+    width: 1.2rem;
+}
+.case .case-detail .case-text .info-btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
 }
