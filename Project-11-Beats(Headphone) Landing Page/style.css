@@ -180,3 +180,50 @@ header{
     cursor: pointer;
     transform: translateY(-7px);
 }
+/* ---------------------------- Main Section ----------------------------*/
+/* -------------- Specs Section ------------------------ */
+
+main .specs{
+    /* border: 1px solid gold; */
+    margin-top:5rem;
+}
+main .specs .specs-img{
+   /* border: 1px solid aqua; */
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   margin-bottom: 2rem;
+}
+main .specs .specs-img img{
+    width:12rem;
+}
+.specs .specs-details{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: auto;
+    justify-content:space-around;
+}
+.specs .specs-details .specs-text .specification{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(245, 245, 245);
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+.specs .specs-details .specs-text .specification:nth-child(1),.specification:nth-child(4){
+    margin-left: 2rem;
+}
+.specs .specs-details .specs-text .specification h4{
+    font-size: .8rem;
+    font-weight:600;
+}
+.specs .specs-details .specs-text .specification h6{
+    font-weight:400;
+    color: rgb(210, 210, 210);
+    margin-top: .2rem;
+}
+.specs .specs-details .headphone-img img{
+    margin-top:2rem;
+}
