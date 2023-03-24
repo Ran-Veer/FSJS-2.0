@@ -186,6 +186,7 @@ header{
 main .specs{
     /* border: 1px solid gold; */
     margin-top:5rem;
+    margin-bottom: 5rem;
 }
 main .specs .specs-img{
    /* border: 1px solid aqua; */
@@ -211,10 +212,11 @@ main .specs .specs-img img{
     color: rgb(245, 245, 245);
     margin-bottom: 1.5rem;
     cursor: pointer;
-    transition: .3s ease-in-out;
+    transition: .4s ease-in-out;
 }
 .specs .specs-details .specs-text .specification:hover{
     transform: translateY(-7px);
+    color: rgba(255, 0, 0, 0.847);
 }
 .specs .specs-details .specs-text .specification:nth-child(1),.specification:nth-child(4){
     margin-left: 2rem;
@@ -235,4 +237,21 @@ main .specs .specs-img img{
 }
 .specs .specs-details .headphone-img img:hover{
     transform: translateY(-10px);
+}
+
+/*------------------------ Case Section -------------------------*/
+
+main .case{
+    border: 1px solid gold;
+}
+.case .case-text-img{
+    border: 1px solid aqua;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top:2rem;
+}
+.case .case-text-img img{
+    width: 10rem;
 }
