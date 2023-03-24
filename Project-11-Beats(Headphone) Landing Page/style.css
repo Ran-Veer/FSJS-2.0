@@ -243,6 +243,7 @@ main .specs .specs-img img{
 
 main .case{
     /* border: 1px solid gold; */
+    margin-bottom: 5rem;
 }
 .case .case-text-img{
     /* border: 1px solid aqua; */
