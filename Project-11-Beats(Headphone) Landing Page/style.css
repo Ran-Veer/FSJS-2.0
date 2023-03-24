@@ -266,6 +266,10 @@ main .case{
 .case .case-detail .case-img img{
     width: 16rem;
     cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.case .case-detail .case-img img:hover{
+    transform: translateY(-10px);
 }
 .case .case-detail .case-text{
     /* border: 1px solid orange; */
@@ -290,6 +294,12 @@ main .case{
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.case .case-detail .case-text .info-btn:hover{
+    box-shadow: 0px 1px 40px 5px rgba(187, 7, 7, 0.708);
+    border-radius: 50px;
+    background-color: transparent;
 }
 .case .case-detail .case-text .info-btn img{
     width: 1.2rem;
