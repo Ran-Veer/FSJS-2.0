@@ -378,3 +378,21 @@ main .headphone .right-img img{
 main .headphone .right-img img:hover{
     transform: translateY(-10px);
 }
+
+/*----------------------------------Headphone Buy Now Section --------------------*/
+main .products-container{
+    border: 1px solid aqua;
+    margin-top:4rem;
+}
+main .products-container .choose-img{
+    border: 1px solid gold;
+    width: 50%;
+    padding: 1rem 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+main .products-container .choose-img img{
+    width: 17rem;
+}
