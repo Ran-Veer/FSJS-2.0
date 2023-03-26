@@ -534,5 +534,15 @@ footer .email-social-media .email button{
 footer .btn-img{
     width: 1rem;
     border: 1px solid red;
-
+}
+footer .email-social-media .email ::placeholder{
+    background-color: rgb(39, 39, 39);
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: 400;
+    color: rgb(244, 244, 244);
+}
+footer .email-social-media .email :focus{
+   background-color: rgb(13, 13, 13);
+   color: rgb(255, 255, 255);
 }
