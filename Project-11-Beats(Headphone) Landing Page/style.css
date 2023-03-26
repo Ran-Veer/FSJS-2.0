@@ -311,3 +311,61 @@ main .case{
     font-family: 'Poppins', sans-serif;
     font-size: .8rem;
 }
+/*---------------------------- Single Headphone Section -------------------*/
+
+main .headphone{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    width: 70%;
+    background-color: rgb(24, 24, 24);
+    border-radius: 15px;
+    margin: auto;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+main .headphone .headphone-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size:1.2rem;
+    font-weight: 600;
+    color: rgb(250, 246, 246);
+    margin-bottom: .9rem;
+    margin-left:3rem;
+}
+main .headphone .headphone-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size:.8rem;
+    font-weight:500;
+    color: rgb(146, 146, 146);
+    margin-bottom: .9rem;
+    margin-left:3rem;
+}
+main .headphone .headphone-text .buy-now{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding:.7rem 1.2rem;
+    width:46%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-left:3rem;
+    cursor: pointer;
+}
+main .headphone .headphone-text .buy-now img{
+    width: 1rem;
+}
+main .headphone .headphone-text .buy-now a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: .7rem;
+    font-weight: 400;
+}
+main .headphone .right-img img{
+    width:17rem;
+    margin-right: 3rem;
+    cursor: pointer;
+}
