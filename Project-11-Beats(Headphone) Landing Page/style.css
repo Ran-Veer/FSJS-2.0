@@ -353,6 +353,11 @@ main .headphone .headphone-text .buy-now{
     justify-content:space-between;
     margin-left:3rem;
     cursor: pointer;
+    transition: .4s ease-in-out;
+}
+main .headphone .headphone-text .buy-now:hover{
+    box-shadow: 0px 1px 40px 5px rgba(187, 7, 7, 0.708);
+    border-radius: 50px;
 }
 main .headphone .headphone-text .buy-now img{
     width: 1rem;
@@ -368,4 +373,8 @@ main .headphone .right-img img{
     width:17rem;
     margin-right: 3rem;
     cursor: pointer;
+    transition: .4s ease-in-out;
+}
+main .headphone .right-img img:hover{
+    transform: translateY(-10px);
 }
