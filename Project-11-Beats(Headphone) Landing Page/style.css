@@ -467,7 +467,7 @@ main .products-container .choose-img img{
     transition: .3s ease-in-out;
 }
 .products .product1 .product-details .shop-img:hover{
-    box-shadow: 0px 1px 40px 5px rgba(7, 172, 187, 0.708);
+    box-shadow: 0px 1px 20px 5px rgba(7, 172, 187, 0.708);
     border-radius: 5px;
     cursor: pointer;
     transform:translateY(-7px);
@@ -491,6 +491,13 @@ footer .footer-logo img{
     /* border: 1px solid red; */
     margin-left: 5rem;
     cursor: pointer;
+    transition: .3s ease-in-out;
+}
+footer .footer-logo img:hover{
+    transform: rotate(360deg);
+    box-shadow: 0px 0px 40px 15px rgba(187, 7, 7, 0.852);
+    border-radius: 50%;
+
 }
 footer .footer-menu{
     display: flex;
@@ -511,13 +518,22 @@ footer .footer-menu a{
     font-size: .7rem;
     font-weight: 400;
     margin-bottom: .4rem;
+    transition: .2s ease-in-out;
+}
+footer .footer-menu a:hover{
+    color: rgba(247, 7, 7, 0.905);
 }
 footer .email-social-media .email{
     background-color: rgb(28, 28, 28);
     padding:.8rem 1rem .8rem .5rem;
     border-radius: 5px;
     margin-top: .9rem;
+    transition: .3s ease-in-out;
     /* border: 1px solid yellowgreen; */
+}
+footer .email-social-media .email:hover{
+    border-radius: 5px;
+    box-shadow: 0px 1px 30px 5px rgba(187, 7, 7, 0.708);
 }
 footer .email-social-media .email button{
     background-color: rgb(0, 0, 0);
@@ -529,7 +545,12 @@ footer .email-social-media .email button{
     font-weight: 400;
     cursor: pointer;
     border-radius: 5px;
+    transition: .3s ease-in-out;
     /* border: 1px solid aqua; */
+}
+footer .email-social-media .email button:hover{
+    border-radius: 5px;
+    box-shadow: 0px 1px 20px 1px rgba(230, 230, 230, 0.708);
 }
 footer .btn-img{
     width: 1rem;
@@ -555,10 +576,23 @@ footer .email-social-media .email :focus{
 input[type="email"]{
     border: none;
 }
+input[type="email"]:invalid{
+    background-color: rgb(153, 9, 9);
+    color: #fff;
+}
+input[type="email"]:valid{
+    background-color: rgb(0, 103, 14);
+    color: #fff;
+}
 footer .email-social-media .social-icons img{
     width: 1.7rem;
     margin-right: 10px;
     margin-top: 1rem;
     cursor: pointer;
     transition: .3s ease-in-out;
+}
+footer .email-social-media .social-icons img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 1px 20px 1px rgba(255, 255, 255, 0.708);
+    border-radius: 5px;
 }
