@@ -41,6 +41,7 @@ header{
 }
 .navbar-container .nav-menu .list a:hover{
     color: rgba(115, 0, 255, 0.868);
+    text-decoration:underline;
 }
 .navbar-container .nav-menu .shop-btn a{
     text-decoration: none;
