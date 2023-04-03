@@ -124,10 +124,17 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-size: .7rem;
     color: #f7f7f7;
-    font-weight: 500;
+    font-weight: 600;
     padding: .7rem 1.5rem;
     background-color: rgb(143, 81, 188);
     border-radius: 28px;
+    transition: .4s ease-in-out;
+}
+.hero-container .left .hero-btn a:nth-last-child(2):hover{
+    box-shadow: 0px 0px 10px 2px rgba(70, 7, 187, 0.708);
+    border-radius: 28px;
+    background-color: #f7f7f7;
+    color:rgb(120, 23, 189) ;
 }
 .hero-container .left .hero-btn a:nth-last-child(1){
     text-decoration: none;
@@ -135,12 +142,23 @@ header{
     font-size: .7rem;
     color:rgb(125, 45, 183);
     font-weight: 600;
-    padding: .7rem 1.5rem;
+    padding: .7rem 1.7rem;
     background-color:#fff;
     border-radius: 28px;
     margin-left: 1rem;
+    transition: .4s ease-in-out;
+}
+.hero-container .left .hero-btn a:nth-last-child(1):hover{
+    box-shadow: 0px 0px 10px 2px rgba(70, 7, 187, 0.708);
+    border-radius: 28px;
+    background-color:rgb(133, 77, 173);
+    color:rgb(230, 230, 230) ;
 }
 .hero-container .right img{
     width:400px;
     cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.hero-container .right img:hover{
+    transform: translateY(-10px);
 }
