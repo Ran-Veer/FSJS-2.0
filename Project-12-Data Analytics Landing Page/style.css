@@ -3,9 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 header{
     width: 100%;
     min-height:100vh;
+    background: linear-gradient(172deg, #fcfdff 40%,#cfefff 80%);
+    clip-path: polygon(100% 0, 100% 25%, 100% 85%, 0 100%, 0 100%, 0 0);
+    border: 1px solid rgba(255, 255, 255, 0);
 }
 /* ------------------------------- Navigation Section ----------------------- */
 .navbar-container{
