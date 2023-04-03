@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -19,8 +20,9 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 7rem;
+    padding: 0 8rem;
     margin-top: 2rem;
+    /* border: 1px solid red; */
 }
 .navbar-container .logo img{
     width: 6rem;
@@ -70,4 +72,75 @@ header{
 }
 .navbar-container .nav-menu .shop-btn:hover{
     transform: translateY(-2px);
+}
+/* ----------------Hero Section --------------------------------*/
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content:center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+    gap: 25px;
+}
+.hero-container .left .learn-more{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 57%;
+    gap: 10px;
+    background-color: rgba(243, 230, 255, 0.731);
+    padding: .3rem 0 .3rem .5rem;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+    color: rgb(108, 17, 187);
+    margin-bottom: 1rem;
+}
+.hero-container .left .learn-more span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hero-container .left h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+.hero-container .left > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    color: #686868;
+    font-weight: 500;
+    line-height: 1.3rem;
+    margin-bottom: 2rem;
+}
+.hero-container .left .hero-btn a:nth-last-child(2){
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7rem;
+    color: #f7f7f7;
+    font-weight: 500;
+    padding: .7rem 1.5rem;
+    background-color: rgb(143, 81, 188);
+    border-radius: 28px;
+}
+.hero-container .left .hero-btn a:nth-last-child(1){
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7rem;
+    color:rgb(125, 45, 183);
+    font-weight: 600;
+    padding: .7rem 1.5rem;
+    background-color:#fff;
+    border-radius: 28px;
+    margin-left: 1rem;
+}
+.hero-container .right img{
+    width:400px;
+    cursor: pointer;
 }
