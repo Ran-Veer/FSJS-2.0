@@ -162,3 +162,79 @@ header{
 .hero-container .right img:hover{
     transform: translateY(-10px);
 }
+/* -------------------------------- Main Section ------------------------*/
+/* ----------- Big Data Section ------------------*/
+
+main .big-data{
+    border: 1px solid red;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.big-data .eye-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: .6rem 0;
+    background-color:rgb(246, 238, 255) ;
+    width:12%;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    color: #813fe4;
+    font-weight: 500;
+    gap: 10px;
+    margin: auto;
+}
+.big-data h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    /* border: 1px solid red; */
+    width: 65%;
+    margin: 1.2rem 0;
+}
+.big-data > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+    text-align: center;
+    color: #9d9c9c;
+    width: 65%;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+.big-data .card-section{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 1rem;
+}
+.big-data .card-section .card-1 img, .card-2 img,.card-3 img{
+    cursor: pointer;
+}
+.big-data .card-section .card-1, .card-2,.card-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.big-data .card-section .card-1 h4,.card-2 h4,.card-3 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    font-weight:bolder;
+    text-align: center;
+}
+.big-data .card-section .card-1 p, .card-2 p, .card-3 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    color: #878787;
+    font-weight:500;
+    line-height: 1.1rem;
+    text-align: center;
+}
