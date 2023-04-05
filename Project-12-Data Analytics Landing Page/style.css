@@ -103,6 +103,10 @@ header{
 .hero-container .left .learn-more span{
     text-decoration: underline;
     cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.hero-container .left .learn-more span:hover{
+    color: #0738bd;
 }
 .hero-container .left h1{
     font-family: 'Montserrat', sans-serif;
@@ -166,7 +170,7 @@ header{
 /* ----------- Big Data Section ------------------*/
 
 main .big-data{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 4rem;
     display: flex;
     justify-content: center;
@@ -190,6 +194,12 @@ main .big-data{
     font-weight: 500;
     gap: 10px;
     margin: auto;
+    transition: .4s ease-in-out;
+}
+.big-data .eye-img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 10px 2px rgba(70, 7, 187, 0.708);
+    border-radius:20px ;
 }
 .big-data h1{
     font-family: 'Montserrat', sans-serif;
@@ -217,6 +227,13 @@ main .big-data{
 }
 .big-data .card-section .card-1 img, .card-2 img,.card-3 img{
     cursor: pointer;
+    transition: .4s ease-in-out;
+    border-radius: 50%;
+}
+.big-data .card-section .card-1 img:hover, .card-2 img:hover,.card-3 img:hover{
+    box-shadow: 0px 0px 10px 2px rgba(70, 7, 187, 0.708);
+    border-radius: 50%;
+    transform: translateY(-7px);
 }
 .big-data .card-section .card-1, .card-2,.card-3{
     display: flex;
