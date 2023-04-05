@@ -267,7 +267,12 @@ main .big-data{
     width: 18rem;
     margin-right: 5rem;
     margin-left: -5rem;
+    transition: .5s ease-in-out;
+    cursor: pointer;
 } 
+.launch .left img:hover{
+    transform: translateY(-10px);
+}
 .launch .right .btn,.engineer .left .btn{
     display: flex;
     flex-direction: row;
@@ -284,7 +289,12 @@ main .big-data{
     width: 50%;
     gap: 10px;
     margin-bottom: 1rem;
-    transition: .4s ease-in-out;
+    transition: .5s ease-in-out;
+}
+.launch .right .btn:hover,.engineer .left .btn:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 10px 2px rgba(70, 7, 187, 0.708);
+    border-radius:20px ;
 }
 .launch .right .btn img,.engineer .left .btn img{
     width: 1.4rem;
@@ -312,7 +322,11 @@ main .big-data{
 }
 .engineer .right img{
     width:29rem;
+    transition: .5s ease-in-out;
 } 
 .engineer .left{
     margin-left: 8rem;
+}
+.engineer .right img:hover{
+    transform: translateY(-15px);
 }
