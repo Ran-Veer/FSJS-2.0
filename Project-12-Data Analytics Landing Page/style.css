@@ -255,3 +255,64 @@ main .big-data{
     line-height: 1.1rem;
     text-align: center;
 }
+/* ----------------------------------- Section-2 -------------------------- */
+.launch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.launch .left img{
+    width: 18rem;
+    margin-right: 5rem;
+    margin-left: -5rem;
+} 
+.launch .right .btn,.engineer .left .btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 0;
+    background-color:rgb(246, 238, 255) ;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    color: #813fe4;
+    font-weight: 500;
+    width: 50%;
+    gap: 10px;
+    margin-bottom: 1rem;
+    transition: .4s ease-in-out;
+}
+.launch .right .btn img,.engineer .left .btn img{
+    width: 1.4rem;
+}
+.launch .right h1,.engineer .left h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight:bold;
+    margin: 1rem 0;
+}
+.launch .right p,.engineer .left p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    color: #878787;
+    font-weight:500;
+    line-height: 1.2rem;
+}
+/* ----------------------------------- Section-3 ---------------------- */
+.engineer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+}
+.engineer .right img{
+    width:29rem;
+} 
+.engineer .left{
+    margin-left: 8rem;
+}
