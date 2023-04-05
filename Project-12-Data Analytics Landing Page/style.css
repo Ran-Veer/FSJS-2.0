@@ -167,11 +167,11 @@ header{
     transform: translateY(-10px);
 }
 /* -------------------------------- Main Section ------------------------*/
-/* ----------- Big Data Section ------------------*/
+/* ----------- Section-1 ------------------*/
 
 main .big-data{
     /* border: 1px solid red; */
-    margin-top: 4rem;
+    margin: 4rem 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
