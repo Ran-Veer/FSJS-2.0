@@ -395,12 +395,14 @@ main .big-data{
 
 /* ----------------------------------- Section-5 ---------------------- */
 .sign-up{
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 4rem;
     gap: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .sign-up .left-side{
     margin-top: 1rem;
