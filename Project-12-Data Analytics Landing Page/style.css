@@ -370,7 +370,7 @@ main .big-data{
     border-radius:50px ;
     cursor: pointer;
 }
-.profile-1 .profile-1-details h4{
+.profile-1 .profile-1-details > h4{
     font-family: 'Montserrat', sans-serif;
     font-size: .7rem;
     font-weight:700;
@@ -391,4 +391,77 @@ main .big-data{
     flex-direction: row;
     justify-content: space-between;
     width:65%;
+}
+
+/* ----------------------------------- Section-5 ---------------------- */
+.sign-up{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 30px;
+}
+.sign-up .left-side h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight:700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.sign-up .left-side .line .lines{
+    border-bottom: 1px solid  #9b9b9b;
+    width: 33%;
+}
+.sign-up .left-side .line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sign-up .left-side .line p{
+    margin: 0 .9rem 0rem .9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    font-weight:600;
+    color: #9b9b9b;
+}
+.sign-up .left-side .img-grid{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: space-between;
+    gap: 10px;
+    width: 90%;
+}
+.sign-up .left-side .img-grid img{
+    width: 5rem;
+    margin: 1.8rem 0;
+}
+.sign-up .right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+    padding: 0 1.5rem;
+}
+.sign-up .right-side> h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight:700;
+    margin: 1rem 0 .6rem 0;
+}
+.sign-up .right-side form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up .right-side a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    font-weight: 500;
+    color: #e5e5e5;
+    padding: .5rem 4rem;
+    background-color: #732ae0;
+    border-radius: 5px;
 }
