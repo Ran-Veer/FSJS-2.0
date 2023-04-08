@@ -318,7 +318,7 @@ main .big-data{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 4rem 0;
+    margin: 4rem 0 2rem 0;
 }
 .engineer .right img{
     width:29rem;
@@ -329,4 +329,54 @@ main .big-data{
 }
 .engineer .right img:hover{
     transform: translateY(-15px);
+}
+
+/* ------------------------------- Section-4 ----------------------- */
+.profile-1{
+    width: 100%;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
+    background-color: rgb(250, 246, 255);
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-1 .profile-1-details{
+    border-bottom: 1.5px solid rgb(216, 199, 229);
+    margin-top: 9rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    width: 70%;
+}
+.profile-1 .profile-1-details h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight:600;
+    line-height: 1.4rem;
+}
+.profile-1 .profile-1-details img{
+    width: 4.5rem;
+}
+.profile-1 .profile-1-details h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7rem;
+    font-weight:700;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+}
+.profile-1 .logo-banner img{
+    width: 5.5rem;
+}
+.profile-1 .logo-banner{
+    margin-bottom: 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:65%;
 }
