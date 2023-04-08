@@ -402,6 +402,10 @@ main .big-data{
     margin-top: 4rem;
     gap: 30px;
 }
+.sign-up .left-side{
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
 .sign-up .left-side h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem;
@@ -447,10 +451,10 @@ main .big-data{
     align-items: center;
     border-radius: 10px;
     padding: 0 1.5rem;
+    margin-right: 1rem;
     box-shadow: 0px 1px 10px 1px rgba(127, 127, 127, 0.3);
-
 }
-.sign-up .right-side> h3{
+.sign-up .right-side h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     font-weight:700;
@@ -488,7 +492,7 @@ main .big-data{
 .sign-up .right-side form input:focus{
     background-color: #f1f1f1;
 }
-.sign-up .right-side p{
+.sign-up .right-side  p{
     font-family: 'Montserrat', sans-serif;
     font-size: .8rem;
     font-weight: 500;
