@@ -538,6 +538,11 @@ footer .footer-logo{
 }
 footer .footer-logo> img{
     width: 6rem;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+footer .footer-logo> img:hover{
+    transform: translateX(5px);
 }
 footer .footer-logo p{
     font-family: 'Montserrat', sans-serif;
@@ -550,6 +555,11 @@ footer .footer-logo .social-icons img{
     width: 1.2rem;
     margin-top: 1rem;
     margin-right: 1rem;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+footer .footer-logo .social-icons img:hover{
+    transform: translateY(-7px);
 }
 footer .footer-menu{
     display: flex;
@@ -563,6 +573,10 @@ footer .footer-menu a{
     color: #2b2b2b;
     text-decoration: none;
     margin-top: .6rem;
+    transition: .2s ease-in-out;
+}
+footer .footer-menu a:hover{
+    color: #6e12f8;
 }
 footer .footer-menu h4{
     font-family: 'Montserrat', sans-serif;
@@ -579,6 +593,7 @@ footer .News-letter input{
     width: 100px;
     padding: .4rem 0rem .4rem .3rem;
     border: none;
+    box-shadow: 2px 2px 10px 1px rgba(127, 127, 127, 0.3);
 }
 footer .News-letter button{
     background-color: #fff;
@@ -588,6 +603,7 @@ footer .News-letter button{
     top: 2px;
     right: 4px;
     cursor: pointer;
+    box-shadow: 5px 2px 10px 1px rgba(127, 127, 127, 0.2);
 }
 footer .News-letter button img{
     width: 1rem;
