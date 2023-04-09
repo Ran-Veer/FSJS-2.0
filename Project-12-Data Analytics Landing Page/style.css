@@ -524,3 +524,74 @@ main .big-data{
     font-size: .8rem;
     cursor: pointer;
 }
+/* -------------------------------- Footer -------------------------- */
+footer{
+    background-color: #fbf8ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 1rem;
+
+}
+footer .footer-logo{
+    margin-right: 2.5rem;
+}
+footer .footer-logo> img{
+    width: 6rem;
+}
+footer .footer-logo p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7rem;
+    font-weight: 500;
+    line-height: 1rem;
+    margin-top:1rem
+}
+footer .footer-logo .social-icons img{
+    width: 1.2rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+footer .footer-menu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+footer .footer-menu a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7rem;
+    font-weight: 600;
+    color: #2b2b2b;
+    text-decoration: none;
+    margin-top: .6rem;
+}
+footer .footer-menu h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+}
+footer .News-letter h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+footer .News-letter input{
+    width: 100px;
+    padding: .4rem 0rem .4rem .3rem;
+    border: none;
+}
+footer .News-letter button{
+    background-color: #fff;
+    border: none;
+    padding: .5rem;
+    position: relative;
+    top: 2px;
+    right: 4px;
+    cursor: pointer;
+}
+footer .News-letter button img{
+    width: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
