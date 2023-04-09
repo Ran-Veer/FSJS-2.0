@@ -22,3 +22,5 @@ Project Details [Gaming Site Landing Page](https://github.com/Ran-Veer/FSJS-2.0/
 Project Details [Real Estate Landing Page](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-10-Real%20Estate%20Landing%20Page)
 ## **`11`** Project:-Beats Headphone Landing Page
 Project Details [Beats Landing Page](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-11-Beats(Headphone)%20Landing%20Page)
+## **`12`** Project:-Data Analytics Landing Page
+Project Details [Data Analytics Landing Page](https://github.com/Ran-Veer/FSJS-2.0/tree/main/Project-12-Data%20Analytics%20Landing%20Page)
