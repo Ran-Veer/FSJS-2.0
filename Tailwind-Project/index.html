@@ -4,14 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>VScode Clone</title>
 </head>
-<body>
+<body class="bg-black">
     <header>
         <!-- -------------------- Navigation Bar Section ------------------------- -->
-        <nav>
-
+        <nav class=" mt-[.2rem] bg-zinc-900 flex flex-row items-center">
+            <div class="border flex flex-row gap-3 items-center">
+                <img class="w-[1.6rem] cursor-pointer hover:rotate-[360deg] duration-[.4s]" src="./Assets/logo.svg" alt="img">
+                <h3 class="text-white text-[1.3rem] cursor-pointer">Visual Studio Code</h3>
+            </div>
+            <div>
+                <ul class="flex text-white border flex-row text-[1.1rem] gap-[1.8rem]">
+                    <li><a class="text-gray-400 hover:text-white transition" href="#">Docs</a></li>
+                    <li><a class="text-gray-400 hover:text-white transition" href="#">Updates</a></li>
+                    <li><a class="text-gray-400 hover:text-white transition" href="#">Blog</a></li>
+                    <li><a class="text-gray-400 hover:text-white transition" href="#">API</a></li>
+                    <li><a class="text-gray-400 hover:text-white transition" href="#">Extensions</a></li>
+                    <li><a class="text-gray-400 hover:text-white transition" href="#">FAQ</a></li>
+                    <li><a class="text-gray-400 hover:text-white transition" href="#">Learn</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center">
+                <img class="w-4 h-4 relative left-[1.6rem] cursor-pointer" src="./Assets/search.svg" alt="img">
+                <form action="#" class=" w-[50%]">
+                    <input type="search" placeholder="Search Docs" class="w-[100%] placeholder:text-[.9rem] focus:ring-white focus:ring-1 hover:bg-zinc-600 focus:text-[#ffffff] focus:outline-none bg-zinc-700 placeholder:text-white pt-[.8rem] pb-[.8rem] pl-[2.2rem]">
+                </form>
+                <a href="#" class="bg-blue-700 pt-[.8rem] pb-[.8rem] pl-[2.2rem] pr-[1.5rem] border text-white">Download</a>
+            </div>
         </nav>
     </header>
 </body>
