@@ -14,3 +14,5 @@ Click Here [FlexBox](https://ranveer07.hashnode.dev/what-is-flexbox-in-css)
 Click Here [Position Property](https://ranveer07.hashnode.dev/what-is-position-property-in-css)
 ### 7. CSS Grid Property
 Click Here [Grid Property](https://ranveer07.hashnode.dev/what-is-css-grid-property)
+### 8. CSS Media Query Property
+Click Here [Media Query Property](https://ranveer07.hashnode.dev/what-is-media-query)
