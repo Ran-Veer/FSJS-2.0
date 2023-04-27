@@ -12,3 +12,5 @@ Click Here [CSS Box Model](https://ranveer07.hashnode.dev/what-is-css-box-model)
 Click Here [FlexBox](https://ranveer07.hashnode.dev/what-is-flexbox-in-css)
 ### 6. CSS Positiion Property
 Click Here [Position Property](https://ranveer07.hashnode.dev/what-is-position-property-in-css)
+### 7. CSS Grid Property
+Click Here [Grid Property](https://ranveer07.hashnode.dev/what-is-css-grid-property)
