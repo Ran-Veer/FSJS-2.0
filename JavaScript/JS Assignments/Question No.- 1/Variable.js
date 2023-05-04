@@ -15,7 +15,7 @@ console.log(`The variable ${CSK_wins} is ${typeof(CSK_wins)} Type.`)
 let Wining_prize
 console.log(`The variable Wining_prize is ${typeof(Wining_prize)} Type.`)
 
-// Null Data Types
+// Null Data Type
 
 let Match_Draw_Result = null
 console.log(`The variable ${Match_Draw_Result} is ${typeof(Match_Draw_Result)} Type.`)
