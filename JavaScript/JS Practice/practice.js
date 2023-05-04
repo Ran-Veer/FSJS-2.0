@@ -30,3 +30,6 @@
 
 // let To_UpperCase = "The toUpperCase() method converts a string to uppercase letters."
 // console.log(To_UpperCase.toUpperCase())
+
+// let JavaScript = "scripttype. Specifies the type of the script"
+// console.log(JavaScript.includes("script"))
