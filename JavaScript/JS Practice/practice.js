@@ -33,3 +33,7 @@
 
 // let JavaScript = "scripttype. Specifies the type of the script"
 // console.log(JavaScript.includes("script"))
+
+// let data = "method takes a pattern and divides a String into an ordered list"
+// const convert = data.split(" ") 
+// console.log(convert)
