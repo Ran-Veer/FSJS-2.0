@@ -28,5 +28,5 @@
 
 // console.log(`Hello, My Name Is ${First_Name} ${Last_Name}, My Country Is ${Country} And I Am ${AGE}yr Old ${Marital_Status}.`)
 
-let To_UpperCase = "The toUpperCase() method converts a string to uppercase letters."
-console.log(To_UpperCase.toUpperCase())
+// let To_UpperCase = "The toUpperCase() method converts a string to uppercase letters."
+// console.log(To_UpperCase.toUpperCase())
