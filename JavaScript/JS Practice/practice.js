@@ -95,3 +95,164 @@
 // }else{
 //     console.log("this is falsy value");
 // }
+
+// if (-4 >= 3) {
+//     console.log("it's a ",(-4>=3), " statement.");
+// }
+// else{
+//     console.log("It's a" ,(-4>=3), "statement.");
+// }
+
+//    4 > 3  true
+//    4 >= 3 true
+//    4 < 3 false
+//    4 <= 3 false
+//    4 == 4 true
+//    4 === 4 true
+//    4 != 4 false
+//    4 !== 4 false
+//    4 != '4' true
+//    4 == '4' true
+//    4 === '4' false
+
+
+// Example 1 :
+
+// if (4 > 3) {
+//     console.log("it's a ",(4>3), " statement.");
+// }
+// else{
+//     console.log("It's a false statement.");
+// }
+
+
+
+// // Example 2 :
+
+// if (4 >= 3) {
+//     console.log("it's a ",(4>=3), " statement.");
+// }
+// else{
+//     console.log("It's a false statement.");
+// }
+
+
+
+// // Example 3 :
+
+// if ( 4 < 3) {
+//     console.log("it's a ",( 4 < 3), " statement.");
+// }
+// else{
+//     console.log("It's a false statement.");
+// }
+
+
+
+// // Example 4 :
+
+// if (4 <= 3) {
+//     console.log("it's a ",(4 <= 3), " statement.");
+// }
+// else{
+//     console.log("It's a false statement.");
+// }
+
+
+// // Example 5 :
+
+// if (4 == 4) {
+//     console.log("it's a ",(4 == 4), " statement.");
+// }
+// else{
+//     console.log("It's a false statement.");
+// }
+
+
+
+
+// // Example 6 :
+
+// if (4 === 4) {
+//     console.log("it's a ",(4 === 4), " statement.");
+// }else{
+//     console.log("It's a false statement.");
+// }
+
+
+
+// // Example 7 :
+
+// if (4 != 4) {
+//     console.log("it's a ",(4 != 4), " statement.");
+// }
+// else{
+//     console.log("It's a false statement.");
+// }
+
+
+
+
+// // Example 8 :
+
+// if (4 !== 4) {
+//     console.log("it's a ",(4 !== 4), " statement.");
+// }
+// else{
+//     console.log("It's a false statement.");
+// }
+
+
+
+
+// // Example 9 :
+
+// if (4 != '4') {
+//     console.log("it's a ",(4 != '4'), " statement.");
+// }
+// else{
+//     console.log("It's a false statement.");
+// }
+
+
+
+
+// // Example 10 :
+
+// if (4 == '4') {
+//     console.log("it's a ",(4 == '4'), " statement.");
+// }
+// else{
+//     console.log("It's a false statement.");
+// }
+
+
+
+
+// // Example 11 : 
+// if (4 === '4') {
+//     console.log("it's a ",(4 === '4'), " statement.");
+// }
+// else{
+//     console.log("It's a false statement.");
+// }
+
+// let value1 = "python";
+
+// let value2 = "jargon ";
+
+// console.log(value1.length) //6
+// console.log(value2.length) //7
+
+// if (value1 === value2) {
+//     console.log(`It's a truthy comparison statement`);  
+// } else {
+//     console.log(`It's a falsy comaprison statement`);
+// }
+
+if (4 != '4') {
+    console.log("it's a ",(4 != '4'), " statement.");
+}
+else{
+    console.log("It's a false statement.");
+}
