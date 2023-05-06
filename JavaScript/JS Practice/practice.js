@@ -37,3 +37,9 @@
 // let data = "method takes a pattern and divides a String into an ordered list"
 // const convert = data.split(" ") 
 // console.log(convert)
+
+// let value = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' ;
+// let array = value.split(',');
+// console.log(array)
+
+
