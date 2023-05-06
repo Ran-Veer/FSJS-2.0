@@ -50,3 +50,48 @@
 // let trim = "         method to remove whitespace           ";
 // let output = trim.trim()
 // console.log(output)
+// let a = '';
+// if (a) {
+//     console.log("truthy value"); //truthy value
+//   } else {
+//     console.log("falsy value");
+//   }
+
+// let value = 1;
+
+//------------------ falsy Value ----------------
+
+// if(Boolean(NaN)){
+//     console.log("this is truthy value");
+// }else{
+//     console.log("this is falsy value");
+// }
+
+// if(Boolean(0)){
+//     console.log("this is truthy value");
+// }else{
+//     console.log("this is falsy value");
+// }
+// if(Boolean("")){
+//     console.log("this is truthy value");
+// }else{
+//     console.log("this is falsy value");
+// }
+
+// // ----------------- Truthy Value --------------
+
+// if(Boolean(15)){
+//     console.log("this is truthy value");
+// }else{
+//     console.log("this is falsy value");
+// }
+// if(Boolean("ranveer")){
+//     console.log("this is truthy value");
+// }else{
+//     console.log("this is falsy value");
+// }
+// if(Boolean([])){
+//     console.log("this is truthy value");
+// }else{
+//     console.log("this is falsy value");
+// }
