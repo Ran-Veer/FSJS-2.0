@@ -43,3 +43,6 @@
 // console.log(array)
 
 
+// let IPLTeams = ['pw skills', 'CSK','DC', 'MI', 'PBKS', 'pw skills', 'RR', 'RCB', 'pw skills', 'LSG', 'GT', 'SRH', 'KKR', 'pw skills'];
+// console.log(IPLTeams.indexOf('pw skills'))
+// console.log(IPLTeams.lastIndexOf('pw skills'))
