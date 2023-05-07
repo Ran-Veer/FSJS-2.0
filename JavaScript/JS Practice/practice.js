@@ -245,15 +245,15 @@
 // }
 
 
-let value1 = "python";
+// let value1 = "python";
 
-let value2 = "jargon ";
+// let value2 = "jargon ";
 
-console.log(value1.length) //6
-console.log(value2.length) //7
+// console.log(value1.length) //6
+// console.log(value2.length) //7
 
-if (value1 === value2) {
-    console.log(`It's a truthy comparison statement`);  
-} else {
-    console.log(`It's a falsy comaprison statement`);
-}
+// if (value1 === value2) {
+//     console.log(`It's a truthy comparison statement`);  
+// } else {
+//     console.log(`It's a falsy comaprison statement`);
+// }
