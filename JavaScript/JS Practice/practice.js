@@ -132,7 +132,7 @@
 // else{
 //     console.log("not allowed")
 // }
-// Example 1 :
+// // Example 1 :
 
 // let value = 4;
 // if (value>3) {
@@ -152,9 +152,9 @@
 //     console.log("It's a false statement.");
 // }
 
-// Example 3 :-
+// // Example 3 :-
 
-// let value = 4;
+// let num = 4;
 // if (value<3) {
 //     console.log("it's a true statement.");
 // }
@@ -162,7 +162,7 @@
 //     console.log("It's a false statement.");
 // }
 
-// Example 4 :-
+// // Example 4 :-
 
 // let value = 4;
 // if (value<=3) {
@@ -172,7 +172,7 @@
 //     console.log("It's a false statement.");
 // }
 
-// Example 5:-
+// // Example 5:-
 
 // let value = 4;
 // if (value==4) {
@@ -182,7 +182,7 @@
 //     console.log("It's a false statement.");
 // }
 
-// Example 6:-
+// // Example 6:-
 
 // let value = 4;
 // if (value===4) {
@@ -192,7 +192,7 @@
 //     console.log("It's a false statement.");
 // }
 
-// Example 7 :-
+// // Example 7 :-
 
 // let value = 4;
 // if (value!=4) {
@@ -203,7 +203,7 @@
 // }
 
 
-// Example 8 :-
+// // Example 8 :-
 
 // let value = 4;
 // if (value!==4) {
@@ -213,7 +213,7 @@
 //     console.log("It's a false statement.");
 // }
 
-// Example 9:-
+// // Example 9:-
 
 // let value = 4;
 // if (value!='4') {
@@ -223,7 +223,7 @@
 //     console.log("It's a false statement.");
 // }
 
-// Example 10:-
+// // Example 10:-
 
 // let value = 4;
 // if (value=='4') {
@@ -234,7 +234,7 @@
 // }
 
 
-// Example 11 :-
+// // Example 11 :-
 
 // let value = 4;
 // if (value==='4') {
