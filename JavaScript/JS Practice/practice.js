@@ -257,3 +257,25 @@
 // } else {
 //     console.log(`It's a falsy comaprison statement`);
 // }
+
+
+// const current = new Date();
+// console.log(current.getFullYear());
+
+// console.log(current.getMonth());
+// console.log(current.getDate());
+// console.log(current.getDay());
+// console.log(current.getHours());
+// console.log(current.getMinutes());
+
+// Calculating the time elapsed from 
+// 1970-01-01 to up to now
+  
+
+// let past = new Date('1970-01-01');  // set the time
+  
+// let now = new Date();  // assigning present time to now variable
+  
+// let elapsed = (now - past); // difference
+  
+// console.log(elapsed / 1000)  // by dividing by 1000 we will getthe time in seconds
