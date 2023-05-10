@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Grade Check</title>
+</head>
+<body>
+    <p id="result"></p>
+    <script>
+        let marks = prompt("Enter Your Scores")
+        if(marks >= 80 && marks <=100 ){
+            document.getElementById("result").innerText = "Your Grade Is A"
+        }
+        else if(marks >= 70 && marks <=89){
+            document.getElementById("result").innerText = "Your Grade Is B"
+        }
+        else if(marks >= 60 && marks <=69){
+            document.getElementById("result").innerText = "Your Grade Is C"
+        }
+        else if(marks >= 50 && marks <=59){
+            document.getElementById("result").innerText = "Your Grade Is D"
+        }
+        else if(marks >= 1 && marks <=49){
+            document.getElementById("result").innerText = "Your Grade Is F"
+        }
+        else{
+            document.getElementById("result").innerText = "Your Are Fail"
+        }
+
+    </script>
+</body>
+</html>
