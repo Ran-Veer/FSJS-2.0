@@ -33,6 +33,9 @@
         else if(marks >= 1 && marks <=49){
             document.getElementById("result").innerText = "Your Grade Is F"
         }
+        else if(marks > 100){
+            document.getElementById("result").innerText = "Please Enter Valid Marks"
+        }
         else{
             document.getElementById("result").innerText = "Your Are Fail"
         }
