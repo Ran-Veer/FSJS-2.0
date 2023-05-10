@@ -279,3 +279,26 @@
 // let elapsed = (now - past); // difference
   
 // console.log(elapsed / 1000)  // by dividing by 1000 we will getthe time in seconds
+
+
+// let currentdate = new Date();
+// console.log(currentdate.getDate())
+
+// const data = new Date();
+
+// const year = data.getFullYear();
+
+// const month = data.getMonth();
+
+// const date = data.getDate();
+
+// const hours = data.getHours();
+
+// const minutes = data.getMinutes();
+
+
+// // Date And Time format Examples
+
+// console.log(`Example- 1. Date And Time format in YYYY-MM-DD HH:mm ${year}-${month}-${date} ${hours}:${minutes}`);
+// console.log(`Example- 2. Date And Time format in DD-MM-YYYY HH:mm ${date}-${month}-${year}-${hours}:${minutes}`);
+// console.log(`Example- 3. Date And Time format in DD/MM/YYYY HH:mm ${date}/${month}/${year} ${hours}:${minutes}`);
