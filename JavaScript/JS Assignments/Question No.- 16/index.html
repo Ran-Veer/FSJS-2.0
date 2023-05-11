@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Season Check</title>
+</head>
+<body>
+    <P id="result"></P>
+    <script>
+        let month = prompt("Enter Month Name (First Letter In Capital)");
+        switch(month){
+            case "November" :
+            case "October" :
+            case "September" : document.getElementById("result").innerText = "The Season is Autumn";
+            break;
+
+            case "December" :
+            case "January" :
+            case "February" : document.getElementById("result").innerText = "The Season is Winter";
+            break;
+
+            case "March" :
+            case "April" :
+            case "May" : document.getElementById("result").innerText = "The Season is Spring";
+            break;
+
+            case "June" :
+            case "July" :
+            case "August" : document.getElementById("result").innerText = "The Season is Summer";
+            break;
+            default : alert("You Entered Wrong Month Name");
+        }
+    </script>
+</body>
+</html>
