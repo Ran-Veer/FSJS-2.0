@@ -303,11 +303,11 @@
 // console.log(`Example- 2. Date And Time format in DD-MM-YYYY HH:mm ${date}-${month}-${year}-${hours}:${minutes}`);
 // console.log(`Example- 3. Date And Time format in DD/MM/YYYY HH:mm ${date}/${month}/${year} ${hours}:${minutes}`);
 
-function numberOfDays(year , month) {
-    const data = new Date(year, month, 0).getDate();
-    return data;
-  }
+// function numberOfDays(year , month) {
+//     const data = new Date(year, month, 0).getDate();
+//     return data;
+//   }
   
 //   console.log(numberOfDays(2, 2023)); //31
 //   console.log(numberOfDays(2, 2024)); //29
-console.log(numberOfDays(1,2100));
+// console.log(numberOfDays(1,2100));
