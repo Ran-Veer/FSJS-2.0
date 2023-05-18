@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let weight = prompt("Enter your weight ( in kg ) : ");
+        let height = prompt("Enter your height (in cm) : ");
+
+        function BMI(weight,height){
+            return weight/(height/100*height/100);
+        }
+        let bmi = BMI(weight,height);
+        console.log(`Your BMI is ${bmi}`);
+
+        if (bmi<18.5) {
+
+        console.log(`You are underweight`);   
+        } 
+        else if(bmi=18.5 && bmi <=24.9){
+
+        console.log(`Normal weight`);
+        }
+        else if (bmi=25 && bmi<=29.9) {
+
+        console.log(`overweight`);
+        }
+        else{
+
+        console.log(`You are obese.`);
+        }
+    </script>
+</body>
+</html>
