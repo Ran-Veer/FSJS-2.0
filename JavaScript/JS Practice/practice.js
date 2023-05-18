@@ -311,3 +311,23 @@
 //   console.log(numberOfDays(2, 2023)); //31
 //   console.log(numberOfDays(2, 2024)); //29
 // console.log(numberOfDays(1,2100));
+
+// const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+
+//   // adding Meat at the beggining
+// shoppingCart.unshift('Meat');
+// console.log(shoppingCart);
+
+// //sugar added at the end by using push
+// shoppingCart.push('sugar');
+// console.log(shoppingCart); 
+
+// // 'Honey' Removed
+
+// shoppingCart.splice(4 ,1);
+// console.log(shoppingCart);
+
+// // Tea modified to greentea
+
+// shoppingCart.splice(3 ,1 , "greentea");
+// console.log(shoppingCart);
