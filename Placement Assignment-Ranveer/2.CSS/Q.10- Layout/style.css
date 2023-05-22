@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0 8px 0 8px;
+    box-sizing: border-box;
+    background-color: rgb(216, 238, 255);
+}
+/* ------------------------- Header ------------------------------- */
+header{
+    margin-top: 30px;
+}
+nav{
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 99%;
+    margin: auto;
+    height:70px;
+    background-color:#1dcca3;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+nav p{
+    background-color:#1dcca3;
+}
+/*  ----------------------------------------- Main ---------------------------------- */
+section{
+    gap: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+/* ---------------------------- Left Part ----------------------------- */
+aside{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    background-color: #32c757;
+    width:350px;
+    height:550px;
+}
+aside p{
+    background-color: #32c757;
+}
+/*  ----------------------------------------- Right Part ------------------------- */
+article{
+    width:770px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: rgb(255, 182, 48);
+}
+.right-article, .right-article p{
+    background-color: rgb(255, 182, 48);
+}
+.right-article{
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+.right-article p{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+/* -------------------------------------------- Image Box ------------------------- */
+.img{
+    background-color: rgb(255, 182, 48);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img-box{
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    margin-bottom: 20px;
+}
+.img-box p{
+    background-color: gold;
+}
