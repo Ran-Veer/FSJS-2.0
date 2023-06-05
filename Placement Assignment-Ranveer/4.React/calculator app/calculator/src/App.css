@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(8, 8, 8);
+}
+.calculator{
+    margin-top: 9rem;
+    border: 10px solid gold;
+}
+input[type = "button"]{
+    height:4.5rem;
+    width: 4.5rem;
+    margin: 1px;
+    border: 1px solid rgb(255, 238, 0);
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(105, 105, 105);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+input[type = "text"]{
+    height:4rem;
+    width:18.5rem;
+    font-size: 40px;
+    text-align: right;
+    border: 5px solid goldenrod;
+}
+.input-btn .c-btn{
+    background-color: green;
+}
+.input-btn .delete-btn{
+    background-color: rgb(221, 60, 20);
+}
+
+.input-btn .equal-btn{
+   width: 9rem;
+   background-color: rgb(49, 107, 88);
+}
+.input-btn .plus-btn{
+    background-color: rgb(47, 145, 136);
+ }
+ .heading{
+    color: white;
+    border: 1px solid white ;
+    text-align: center;
+ }
+ .title{
+    position: relative;
+    top: 5rem;
+ }
