@@ -27,3 +27,44 @@ menu.textContent ="Chinese(7)"
 
 addMenu.appendChild(menu)
 ```
+### 3. New Card Added
+
+```javascript
+const main = document.querySelector(".recipe-gallery")
+
+const container = document.createElement("div")
+
+container.className ="card"
+
+const anchor = document.createElement("a")
+
+anchor.className ="recipe-text"
+
+const image = document.createElement("img")
+
+image.className ="recipe-img"
+
+image.src ="./Mushroom.jpg"
+
+const h5 = document.createElement("h5")
+
+h5.className ="recipe-name"
+
+h5.textContent ="Mushroom Masala"
+
+const para = document.createElement("p")
+
+para.className ="recipe-disp"
+
+para.textContent ="Prep : 20 min | Cook : 50 min"
+
+anchor.appendChild(image)
+
+anchor.appendChild(h5)
+
+anchor.appendChild(para)
+
+container.appendChild(anchor)
+
+main.appendChild(container)
+```
