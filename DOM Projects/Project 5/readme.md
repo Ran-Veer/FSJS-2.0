@@ -68,3 +68,12 @@ container.appendChild(anchor)
 
 main.appendChild(container)
 ```
+
+### 4. Name Added In Footer
+```javascript
+
+const footer = document.querySelector(".page-footer")
+
+footer.querySelector("a").innerText = "Ranveer"
+
+```
