@@ -22,3 +22,12 @@ h2.textContent ="This is My Custom Heading"
 div.appendChild(h2)
 
 ``` 
+### 2. Background Image Removed
+```javascript
+
+// Body targeted
+const body = document.querySelector("body")
+
+// Background Image Removed
+body.style.backgroundImage ="none"
+```
