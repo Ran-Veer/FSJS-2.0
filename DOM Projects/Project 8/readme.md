@@ -31,3 +31,24 @@ const body = document.querySelector("body")
 // Background Image Removed
 body.style.backgroundImage ="none"
 ```
+### 3. Toggle Nav Menu
+
+```javascript
+
+let a = document.querySelector("button");
+
+let count = 0;
+
+a.addEventListener("click", (e) => {
+  e.preventDefault();
+  count += 1;
+
+  if (count % 2 == 0) {
+    document.querySelector("#navbarTogglerDemo01").setAttribute("class", "collapse navbar-collapse");
+
+  } else if (count % 2 !== 0) {
+    document.querySelector(".collapse").setAttribute("class", "collapse.show navbar-collapse");
+  }
+});
+
+```
