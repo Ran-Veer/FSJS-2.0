@@ -9,3 +9,19 @@ const heading = document.querySelector(".caption h1")
 heading.style.color ="red"
 
 ```
+### 2. Mouse Event added 
+
+```javascript
+// button targeted
+const btn = document.querySelector("button")
+
+// eventlistener added
+
+btn.addEventListener('mouseenter', () => {
+    btn.style.backgroundColor ="red"
+})
+
+btn.addEventListener('mouseleave', () => {
+    btn.style.backgroundColor ="green"
+})
+```
